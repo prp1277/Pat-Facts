@@ -1,5 +1,5 @@
 import React from "react";
-import Container from "../components/container";
+import { graphql } from 'gatsby';
 
 export default ({ data }) => {
   console.log(data);
