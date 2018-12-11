@@ -1,5 +1,6 @@
 import React from "react";
 import { StaticQuery, graphql } from "gatsby";
+import LinkGroup from "../components/SocialMedia";
 
 const PageLinks = () => (
   <StaticQuery query={graphql`
@@ -20,8 +21,8 @@ const PageLinks = () => (
       }
     `} render={(data) => (
 
-      <nav id="site-nav" className="nav nav-item justify-content-center">
-
+      <nav id="site-nav" className="nav nav-item container-fluid">
+        <LinkGroup />{/** 
         {data.allMarkdownRemark.edges.map(({ node }, index) => (
           <div className="nav-item" id={node.id} key={node.frontmatter.title}>
             <a
@@ -31,7 +32,7 @@ const PageLinks = () => (
               {node.frontmatter.title}</a>
           </div>
         ))}
-
+*/}
       </nav>
 
     )}

@@ -4,14 +4,14 @@ import { siteMetadata } from '../../gatsby-config';
 class Introduction extends React.Component {
   render() {
     return (
-      <div id="Landing" className="container bg-light my-1 p-2">
+      <div id="Landing" className="container bg-secondary text-light my-1 p-2">
 
         <section id="greeting" className="col flex-row">
           <h1><b>Welcome to {siteMetadata.title}</b></h1>
           <h5><b>Follow the links above to see samples of {siteMetadata.contact.name}'s work</b></h5>
         </section>
 
-        <section id="introduction" className="row py-2">
+        <section id="introduction" className="row py-2 justify-content-center">
           <img className="mx-2" src="./static/Dubya-0045112e369c61baa8813fded93c5e4f.jpg" width="301" height="301" alt="dubya" />
           <img className="mx-2" src="./static/LinkedIn-dfbd71c0fae03cd7d16ce2433df200e9.jpg" width="301" height="301" alt="profile" />
         </section>

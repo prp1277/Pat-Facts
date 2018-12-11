@@ -1,6 +1,6 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'prismjs/themes/prism-coy.css';
+import './PrismTheme.css';
 import { graphql } from "gatsby";
 import "../pages/index.css";
 import Navbar from "../components/Navbar";
@@ -11,16 +11,22 @@ export default ({ data }) => {
   const post = data.markdownRemark;
   return (
     <div id="root">
+      {/** id=root */}
       <Navbar />
+
       <PageLinks />
 
-      <section id="Page" className="container bg-secondary px-2">
-        <h1 className="text-white">{post.frontmatter.title}</h1>
-        <h3 className="text-white">{post.frontmatter.date}</h3>
-        <div id="main" className="bg-light"
+      <article id="Page" className="container col-10 bg-secondary">
+        {/** This template uses two containers to create a multi-tiered layout. Page is a regular container, but Main is a container-fluid, meaning Main will use as much space as needed */}
+        <h1 className="text-white align-items-center">{post.frontmatter.title} | <small> {post.frontmatter.date}</small></h1>
+
+        <div id="main" className="container-fluid bg-light"
           dangerouslySetInnerHTML={{ __html: post.html }} />
-      </section>
+
+      </article>
+
       <Footer />
+
     </div>
   );
 };

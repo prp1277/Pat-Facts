@@ -1,48 +1,54 @@
 import React from "react";
+import LinkGroup from "./SocialMedia";
 
 export default () => {
   return (
-    <div className="About-Me-Content">
-      <h1>About Me</h1>
-      <p> I started this website as a way to gain experience in website development and programming. My goal is to provide insight, tutorials and opinions on various technologies and topics. </p>
+    <div id="root">
+      {/** id=root */}
+      <Navbar />
 
-{/**
-<div className="image-container">
-<img src="" width="301" alt="Profile" />
-<img src="" width="301" alt="Dubya" />
-</div>
-*/}
-      <h1>Interests:</h1>
-      <h3>Finance</h3>
-      <h3>Web Development</h3>
-      <h3>Business Applications and Intelligence</h3>
+      <PageLinks />
 
-      <section>
+      <article id="Page" className="container bg-secondary">
+        {/** This template uses two containers to create a multi-tiered layout. Page is a regular container, but Main is a container-fluid, meaning Main will use as much space as needed */}
+        <h1 className="text-white">About Me</h1>
+        <p> I started this website as a way to gain experience in website development and programming. My goal is to provide insight, tutorials and opinions on various technologies and topics. </p>
+        <h3 className="text-white"></h3>
 
-      <h2>Contact Information:</h2>
-      <a href="Mailto:prp1277@gmail.com" alt="email">
-        Email:</a>
-
-      <a href="tel:14024159083" alt="mobile">
-        Cell Phone</a>
-
-      <a href="https://linkedin.com/in/prpowell1277/" alt="linkedin">
-        LinkedIn Profile</a>
-
-      <a href="https://1drv.ms/w/s!AoLkNBOSNnKyhel7Dp8q06YYxobiHQ" alt="word-resume">
-        Resume</a>
-
-      <a href="http://pat-facts.netlify.com/resume/" alt="web-resume">
-        web page</a>
-        
+        <section id="main" className="container-fluid bg-light"
+          dangerouslySetInnerHTML={{ __html: post.html }}>
         </section>
 
+      </article>
+
+      <Footer />
     </div>
   );
 };
 
-{
-  /*
+
+{/**  
+    <!-- 2.0 Framework - needs to be implemented -->
+    <article id="Page" className="container bg-secondary text-light my-1 p-2">
+
+      <section id="greeting" className="flex-row">
+        <h1>About Me</h1>
+        <p> I started this website as a way to gain experience in website development and programming. My goal is to provide insight, tutorials and opinions on various technologies and topics. </p>
+      </section>
+
+      <section id="main" className="flex-row">
+        <h1>Interests:</h1>
+        <h3>| Finance | Web Development | Business Intelligence |</h3>
+      </section>
+
+      <section id="Contact" className="flex-row">
+        <h2>Contact Information:</h2>
+        <LinkGroup />
+      </section>
+
+    </article>
+
+<!-- Original About Me -->
         <h2>Background</h2>
         <p>
           I'm originally from Omaha, NE, went to Missouri State University in
@@ -88,5 +94,4 @@ export default () => {
           the bigger picture. Power BI opened my eyes to the fact that you can
           literally get data from anywhere.
         </p>
-*/
-}
+*/}

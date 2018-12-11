@@ -1,7 +1,7 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
-import { siteMetadata } from '../../gatsby-config'
+import '../templates/PrismTheme.css';
 import Navbar from "../components/Navbar";
 import PageLinks from "../data/PageLinks";
 import Footer from "../components/Footer";
@@ -14,16 +14,20 @@ class App extends React.Component {
         <Navbar />
         <PageLinks />
 
-        <section id="Page" className="container p-3 bg-secondary">
+        <article id="Page" className="container p-3">
+          {/** */}
+          <section className="row flex justify-content-center mx-1" >
 
-          <section id="HolidayGreeting" className="card my-2">
-            <h1 className="card-header text-white">Happy Holidays!</h1>
+            <div id="HolidayGreeting" className="container mb-4 shadow-lg">
+              <h1 className="card-header text-white">Happy Holidays!</h1>
+            </div>
+
+            <Introduction />
+
           </section>
-          {/* <br /> */}
 
-          <Introduction />
 
-        </section> {/** */}
+        </article> {/** */}
 
         <Footer />
 

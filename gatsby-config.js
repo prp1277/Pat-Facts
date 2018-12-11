@@ -3,7 +3,7 @@ const path = require(`path`);
 const siteMetadata = {
   siteURL: "https://pat-facts.netlify.com/",
   title: "Pat Facts",
-  description: "",
+  description: "Personal Blog and Resources",
   homePage: "https://github.com/prp1277/pat-facts/#readme.md",
   contact: {
     name: "Patrick Powell",
@@ -44,6 +44,17 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-plugin-netlify`,
     {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        resolve: `gatsby-remark-images`,
+        options: {
+          maxWidth: 590,
+          linkImagesToOriginal: true,
+          wrapperStyle: "margin-bottom:10px",
+        },
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: "PatFacts",
@@ -53,7 +64,7 @@ module.exports = {
         theme_color: "#0563c1",
         display: "minimal-ui",
         icon: "src/favicon.svg"
-      }
+      },
     },
     {
       resolve: `gatsby-transformer-remark`,
@@ -64,7 +75,8 @@ module.exports = {
             options: {
               classPrefix: "language-",
               inlineCodeMarker: null,
-              showLinkNumbers: true,
+              numberLines: true,
+              showLineNumbers: true,
               noInlineHighlight: false,
               aliases: {
                 sh: "bash"
@@ -85,7 +97,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `img`,
-        path: `${__dirname}/src/pages/img/`,
+        path: `${__dirname}/src/docs/img/`,
       },
     },
     {
@@ -94,6 +106,12 @@ module.exports = {
         name: `pages`,
         path: `${__dirname}/src/pages/`,
       },
+    },
+    {
+      resolve: `gatsby-plugin-page-creator`,
+      options: {
+        path: `${__dirname}/src/docs/pages/`
+      }
     },
     {
       resolve: `gatsby-plugin-page-creator`,
