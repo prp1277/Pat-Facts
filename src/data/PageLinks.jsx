@@ -21,7 +21,7 @@ const PageLinks = () => (
       }
     `} render={(data) => (
 
-      <nav id="site-nav" className="nav nav-item container-fluid">
+      <nav id="site-nav" className="nav nav-item justify-content-center">
 
         {data.allMarkdownRemark.edges.map(({ node }, index) => (
           <div className="nav-item" id={node.id} key={node.frontmatter.title}>
