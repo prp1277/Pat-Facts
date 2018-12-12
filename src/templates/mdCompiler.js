@@ -2,7 +2,9 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './PrismTheme.css';
 import { graphql } from "gatsby";
+import { siteMetadata } from '../../gatsby-config';
 import "../pages/index.css";
+import Helmet from 'react-helmet';
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import PageLinks from "../data/PageLinks";
@@ -11,6 +13,10 @@ export default ({ data }) => {
   const post = data.markdownRemark;
   return (
     <div id="root">
+      <Helmet>
+        <title>{siteMetadata.title}</title>
+        <meta title="description" content={siteMetadata.description} />
+      </Helmet>
       {/** id=root */}
       <Navbar />
 

@@ -1,9 +1,9 @@
 const path = require(`path`);
 
 const siteMetadata = {
-  siteURL: "https://pat-facts.netlify.com/",
+  siteUrl: "https://pat-facts.netlify.com/",
   title: "Pat Facts",
-  description: "Personal Blog and Resources",
+  description: "Patrick Powell's Blog and Resources",
   homePage: "https://github.com/prp1277/pat-facts/#readme.md",
   contact: {
     name: "Patrick Powell",
@@ -59,7 +59,7 @@ module.exports = {
       options: {
         name: "PatFacts",
         short_name: "PatFacts",
-        start_url: ".",
+        start_url: "/",
         background_color: "#000",
         theme_color: "#0563c1",
         display: "minimal-ui",
