@@ -15,7 +15,7 @@ To learn more about Personal Macro Workbooks, I suggest [this article](https://w
 
 I created this macro to deal with ugly spreadsheets. Merged cells, wrapped text, funky alignments - all GONE.
 
-```vb
+```visual-basic
 Sub QuickFormat()
     'Clear Formatting from all cells
     'ctrl+shift+m
