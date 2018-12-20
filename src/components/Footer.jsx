@@ -1,5 +1,4 @@
 import React from 'react';
-import { siteMetadata } from '../../gatsby-config'
 import LinkGroup from './SocialMedia';
 
 class Footer extends React.Component {

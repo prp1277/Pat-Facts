@@ -1,5 +1,8 @@
 import React from "react";
 import { graphql } from 'gatsby';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './index.css';
+import '../templates/PrismTheme.css';
 
 export default ({ data }) => {
   console.log(data);

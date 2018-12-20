@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Me extends React.Component {
+class Media extends React.Component {
   render() {
     return (
       <div className="media container">
@@ -19,4 +19,4 @@ class Me extends React.Component {
   }
 }
 
-export default Me;
+export default Media;

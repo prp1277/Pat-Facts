@@ -55,10 +55,10 @@ typings/
 .yarn-integrity
 
 # dotenv environment variables file
-.env
-.vscode
-.rest
-.http
+*.env
+*.vscode
+*.rest
+*.http
 
 .cache/
 public

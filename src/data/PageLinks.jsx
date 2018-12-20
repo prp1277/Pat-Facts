@@ -1,6 +1,5 @@
 import React from "react";
 import { StaticQuery, graphql } from "gatsby";
-import LinkGroup from "../components/SocialMedia";
 
 const PageLinks = () => (
   <StaticQuery query={graphql`
