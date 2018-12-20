@@ -54,7 +54,7 @@ const CardGroup = () => {
 
 const BlogCard = () => {
   return (
-    <div id="Card" className="card mx-2 my-2 p-2 shadow-lg bg-secondary">
+    <div id="Card" className="card mx-2 my-2 p-2 shadow-lg bg-secondary text-light">
       <img id="card-image"
         className="card shadow-lg img-fluid"
         src="https://picsum.photos/300/200/?random"
@@ -69,7 +69,7 @@ const BlogCard = () => {
             </h3>
 
         <p id="card-text"
-          className="card-text text-truncate">
+          className="card-text">
           Posts about things I find interesting.
             </p>
 
@@ -86,7 +86,7 @@ const BlogCard = () => {
 
 const ToDoCard = () => {
   return (
-    <div id="Card" className="card mx-2 my-2 p-2 shadow-lg bg-secondary">
+    <div id="Card" className="card mx-2 my-2 p-2 shadow-lg bg-secondary text-light">
       <img id="card-image"
         className="card shadow-lg img-fluid"
         src="https://picsum.photos/300/200/?random"
@@ -101,7 +101,7 @@ const ToDoCard = () => {
             </h3>
 
         <p id="card-text"
-          className="card-text text-truncate">
+          className="card-text">
           Things that I need to fix or improve
             </p>
 

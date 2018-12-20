@@ -8,11 +8,11 @@ class Footer extends React.Component {
 
         <div className="container-fluid justify-content-center">
 
-          <div className="col navbar-text text-white">
+          <div className="col flex-row navbar-text text-white">
             <h4 className="navbar-header">Connect on social media</h4>
           </div>
 
-          <div id="icons" className="row flex-col justify-content-center">
+          <div id="icons" className="row flex-col">
             <LinkGroup />
           </div>
 
