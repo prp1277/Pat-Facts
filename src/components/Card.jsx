@@ -1,15 +1,11 @@
 import React from "react";
-import PageLinks from '../data/PageLinks';
-import AllImages from '../data/AllImgs';
-import { AllFiles } from '../data/AllFiles';
-import { PathTable } from '../data/PathTable';
 
 class Card extends React.Component {
   render() {
     return (
 
       <div id="Card"
-        className="card mx-2 my-2 p-2 shadow-lg bg-secondary">
+        className="card my-2 p-2 shadow-lg bg-secondary">
 
         <img id="card-image"
           className="card shadow-lg img-fluid"
@@ -20,17 +16,20 @@ class Card extends React.Component {
           className="card-body text-center">
 
           <h3 id="card-title"
-            className="card-title"
-          >Card Title</h3>
+            className="card-title">
+            Card Title
+            </h3>
 
           <p id="card-text"
-            className="card-text text-truncate"
-          >Card Text</p>
+            className="card-text text-truncate">
+            Card Text
+            </p>
 
           <a id="card-link"
             href="/"
-            className="btn btn-danger btn-block"
-          >Link</a>
+            className="btn btn-danger btn-block">
+            Link
+            </a>
 
         </div>
 
@@ -41,36 +40,80 @@ class Card extends React.Component {
 
 const CardGroup = () => {
   return (
-    <div id="card-group" className="row mx-2">
+    <div id="card-group" className="container-fluid">
 
       <div className="card-deck">
-        <Card />
-        <Card />
-        <Card />
+        {/* <Card /> */}
+        <BlogCard />
+        <ToDoCard />
       </div>
     </div>
 
   );
 }
 
-const ProjectCard = (data) => {
+const BlogCard = () => {
   return (
-    <Card id="Projects">
+    <div id="Card" className="card mx-2 my-2 p-2 shadow-lg bg-secondary">
+      <img id="card-image"
+        className="card shadow-lg img-fluid"
+        src="https://picsum.photos/300/200/?random"
+        alt="" />
 
-      <div className="card-body">
-        <div className="card-header">
-          <h1>{data.title}</h1>
-        </div>
+      <div id="card-body"
+        className="card-body text-center">
 
-        <div className="card-img">
-          <img className="img-fluid" src={data.img} />
-        </div>
+        <h3 id="card-title"
+          className="card-title">
+          Blog Posts
+            </h3>
 
-        <div className="card-link"><a href={data.link} alt="link">{data.name}</a></div>
+        <p id="card-text"
+          className="card-text text-truncate">
+          Posts about things I find interesting.
+            </p>
+
+        <a id="card-link"
+          href="./docs"
+          className="btn btn-danger btn-block">
+          Link
+            </a>
+
       </div>
-
-    </Card>
+    </div>
   );
 }
 
-export { CardGroup, Card, ProjectCard };
+const ToDoCard = () => {
+  return (
+    <div id="Card" className="card mx-2 my-2 p-2 shadow-lg bg-secondary">
+      <img id="card-image"
+        className="card shadow-lg img-fluid"
+        src="https://picsum.photos/300/200/?random"
+        alt="" />
+
+      <div id="card-body"
+        className="card-body text-center">
+
+        <h3 id="card-title"
+          className="card-title">
+          To-Do List
+            </h3>
+
+        <p id="card-text"
+          className="card-text text-truncate">
+          Things that I need to fix or improve
+            </p>
+
+        <a id="card-link"
+          href="./docs/pages/Checklist"
+          className="btn btn-danger btn-block">
+          Link
+            </a>
+
+      </div>
+    </div>
+  );
+}
+
+export { CardGroup, Card, BlogCard, ToDoCard };

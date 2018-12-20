@@ -1,6 +1,7 @@
 import React from "react";
 import { graphql } from "gatsby";
-import "./index.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './index.css';
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import PageLinks from "../data/PageLinks";
@@ -18,9 +19,10 @@ export default ({ data }) => {
         <h1 className="text-white">Image Reference</h1>
         <h3 className="text-white">Note: Sizes are in W <b>|</b> H format</h3>
 
-        <section id="main" className="container-fluid m-1">
+        <section id="main">
 
-          <table id="image-index" className="table table-sm table-bordered table-hover table-secondary">
+          <table id="table"
+            className="table-responsive table-light text-nowrap">
 
             <thead>
               <th className="bg-danger text-white">https://daveswoodworking.netlify.com/</th>
@@ -30,8 +32,8 @@ export default ({ data }) => {
             <tbody>
               {data.allImageSharp.edges.map(({ node }, index) => (
                 <tr key={node.id}>
-                  <td> {node.original.src} </td>
-                  <td> {node.fluid.srcWebp} </td>
+                  <td>{node.original.src}</td>
+                  <td>{node.fluid.srcWebp}</td>
                 </tr>
               ))}
             </tbody>

@@ -3,9 +3,7 @@ title: "Resume"
 date: "2018-07-22"
 tags: ["Resume"]
 ---
-<br/>
-
-<h3><b>A financial analyst with a background in operations and a passion for improving processes.</b></h3>
+<h4><b>A financial analyst with a background in operations and a passion for improving processes.</b></h4>
 <h2>
 <a href="Mailto:Prp1277@gmail.com">Email</a> --
 <a href="tel:+1-402-415-9083">Cell</a> --
@@ -14,16 +12,19 @@ tags: ["Resume"]
 <a href="https://www.google.com/maps/place/7929+Summit+St,+Kansas+City,+MO+64114">Address</a>
 </h2>
 
-<h1> Employment</h1>
+<h1>Employment</h1>
 
 ### Reinhart Foodservice 
-**Purchasing Assistant** (August 2017 - February 2018)
+> Purchasing Assistant (August 2017 - February 2018)
 
-- Built, managed and maintained Excel and Power Bi dashboards for inventory valuation to provide insights to management
-- Created dynamic Excel templates using VBA and Power Queries to optimize Procurement, Warehousing and Transportation
-- Took ownership of the weekly Perfect Order Reports and meetings to trace and eliminate invoice errors
-  > Decreased invoice errors due to product availability by 34%
-- Purchased 221 Products from 22 vendors, managed inventory levels and communications between vendors, a centralized repurchasing team, sales representatives and customers
+Built, managed and maintained Excel and Power Bi dashboards for inventory valuation to provide insights to management
+
+Created dynamic Excel templates using VBA and Power Queries to optimize Procurement, Warehousing and Transportation
+
+Took ownership of the weekly Perfect Order Reports and meetings to trace and eliminate invoice errors
+> Decreased invoice errors due to product availability by 34%
+
+Purchased 221 Products from 22 vendors, managed inventory levels and communications between vendors, a centralized repurchasing team, sales representatives and customers
 
 ## State Street
 

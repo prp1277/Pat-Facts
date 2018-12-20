@@ -6,6 +6,7 @@ import { siteMetadata } from '../../gatsby-config';
 import Navbar from "../components/Navbar";
 import PageLinks from "../data/PageLinks";
 import Footer from "../components/Footer";
+import { CardGroup } from "../components/Card";
 import Introduction from '../components/Introduction';
 import Helmet from 'react-helmet';
 
@@ -15,6 +16,7 @@ class App extends React.Component {
       <div className="App" id="root">
         <Helmet>
           <meta charset="utf-8" />
+          <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes"></meta>
           <title>{siteMetadata.title}</title>
           <meta name="author" content={siteMetadata.contact.name} />
           <meta property="og:description" content={siteMetadata.description} />
@@ -36,6 +38,7 @@ class App extends React.Component {
 
           </section>
 
+          <CardGroup />
 
         </article> {/** */}
 

@@ -1,6 +1,8 @@
 import React from "react";
 import { StaticQuery, graphql } from "gatsby";
-
+/**
+ * This is the navigation for all markdown pages
+ */
 const PageLinks = () => (
   <StaticQuery query={graphql`
       query {
@@ -20,7 +22,7 @@ const PageLinks = () => (
       }
     `} render={(data) => (
 
-      <nav id="site-nav" className="nav nav-item justify-content-center">
+      <div id="site-nav" className="nav nav-item justify-content-center">
 
         {data.allMarkdownRemark.edges.map(({ node }, index) => (
           <div className="nav-item" id={node.id} key={node.frontmatter.title}>
@@ -31,9 +33,7 @@ const PageLinks = () => (
               {node.frontmatter.title}</a>
           </div>
         ))}
-
-      </nav>
-
+      </div>
     )}
   />
 );

@@ -8,11 +8,15 @@ tags: ["Excel", "Power Query", "VBA"]
 
 I have a workbook that is set up as an Excel Table as follows:
 
+<center>
+
 | Markdown Formula | News | URL |
-|:---------------------:|:--------:|:-----------------------------------------|
+|:---------------------|:--------:|:-----------------------------------------:|
 | ="["&A2&"]"&"("&B2&")" |    All     | https://www.investing.com/rss/news.rss     |
 | ="["&A3&"]"&"("&B3&")" | Technology | https://www.investing.com/rss/news_288.rss |
 | ="["&A4&"]"&"("&B4&")" | Technology | https://www.investing.com/rss/news_288.rss |
+
+</center><br/>
 
 The markdown syntax column is there so I can create a links / cheat sheets page on Github that's similar to this [Open Data Catalog Repository](https://github.com/axibase/open-data-catalog/tree/master/data-hosts), but I'd like the ability to refresh the queries and bring in the most recent news.
 
