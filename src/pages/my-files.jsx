@@ -29,7 +29,7 @@ export default ({ data }) => {
                     /{node.sourceInstanceName}/{node.relativePath}
                   </td>
 
-                  <td><a href={node.publicURL}>{node.publicURL}</a></td>
+                  <td><a href={node.name}>{node.relativePath}</a></td>
                 </tr>
               ))}
             </tbody>
@@ -67,6 +67,7 @@ export const query = graphql`
     allFile {
       edges {
         node {
+          name
           sourceInstanceName
           relativePath
           publicURL

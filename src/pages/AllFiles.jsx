@@ -4,47 +4,36 @@ import { StaticQuery, graphql } from 'gatsby';
 const AllFiles = () => (
   <StaticQuery
     query={graphql`
-  allFile {
-    edges {
-      node {
-        id
-        changeTime(fromNow: true)
-        sourceInstanceName
-        relativePath
-        publicURL
-      }
-    }
-  }
-  allImageSharp {
-    edges {
-      node {
-        id
-        fluid {
-          srcWebp
-        }
-      }
-    }
-  }
-  allMarkdownRemark{
+    query{
+  allFile{
     edges{
       node{
         id
-        timeToRead
-        headings{
-          value
+        name
+        changeTime
+        publicURL
+        childImageSharp{
+          fluid{
+            originalName
+            srcWebp
+          }
         }
-        html
-        fields{
-          slug
+        childMarkdownRemark{
+          frontmatter{
+            title
+          }
+          fields{
+            slug
+          }
         }
       }
     }
   }
-      }
+}
   `} render={(data) => (
       <div className="container">
         {data.allFile.edges.map(({ node }, index) => (
-          <div key={index} id={node.relativePath} className="my-1 mx-1">
+          <div key={index} id={node.id} className="my-1 mx-1">
             <a className="btn btn-danger btn-sm" href={node.publicURL}>{node.name}</a>
           </div>
         ))}

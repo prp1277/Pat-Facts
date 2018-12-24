@@ -54,10 +54,10 @@ const CardGroup = () => {
 
 const BlogCard = () => {
   return (
-    <div id="Card" className="card mx-2 my-2 p-2 shadow-lg bg-secondary text-light">
+    <div id="Card" className="card container-fluid mx-2 my-2 p-2 shadow-lg bg-secondary text-light">
       <img id="card-image"
-        className="card shadow-lg img-fluid"
-        src="https://picsum.photos/300/200/?random"
+        className="card-img img-responsive img-thumbnail"
+        src="./static/6993928d663e0e6cc67857c0cf1768ba/765ea/StudyGuidesTweet.webp"
         alt="" />
 
       <div id="card-body"
@@ -86,10 +86,10 @@ const BlogCard = () => {
 
 const ToDoCard = () => {
   return (
-    <div id="Card" className="card mx-2 my-2 p-2 shadow-lg bg-secondary text-light">
+    <div id="Card" className="card container-fluid mx-2 my-2 p-2 shadow-lg bg-secondary text-light">
       <img id="card-image"
-        className="card shadow-lg img-fluid"
-        src="https://picsum.photos/300/200/?random"
+        className="card-img img-responsive img-thumbnail"
+        src="./static/caa0c6fcf631a8e8ae30a47a7a71c0e0/be19b/CatastrophicFail.webp"
         alt="" />
 
       <div id="card-body"

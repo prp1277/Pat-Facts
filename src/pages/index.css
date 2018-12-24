@@ -92,8 +92,13 @@ h3 {
   max-width: 75vw;
 }
 
-.card {
+.Card {
   box-shadow: 0 8px 16px 0 #00000033, 0 6px 20px 0 #00000030;
+}
+
+#card-image{
+  max-width: 25vw;
+  align-self: center;
 }
 
 #HolidayGreeting {

@@ -5,6 +5,7 @@ import '../templates/PrismTheme.css';
 import { siteMetadata } from '../../gatsby-config';
 import Navbar from "../components/Navbar";
 import PageLinks from "../data/PageLinks";
+import PathTable from "../data/PathTable";
 import Footer from "../components/Footer";
 import { CardGroup } from "../components/Card";
 import Introduction from '../components/Introduction';
@@ -39,7 +40,7 @@ class App extends React.Component {
           </section>
 
           <CardGroup />
-
+          <PathTable />
         </article> {/** */}
 
         <Footer />
