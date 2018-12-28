@@ -5,7 +5,7 @@ import './index.css';
 import '../templates/PrismTheme.css';
 
 export default ({ data }) => {
-  console.log(data);
+  // console.log(data);
   return (
     <article id="root">
       <article id="Page" className="container col-10 bg-secondary">
@@ -14,48 +14,28 @@ export default ({ data }) => {
 
         <h2>All Files Query</h2>
         <div className="container">
-          <table className="table table-sm table-light text-center" id="MarkdownTable">
-            <thead>
-              <tr className="bg-danger text-center text-white">
-                <th>Source/Path</th>
-                <th>Static URL</th>
-              </tr>
-            </thead>
+          <div className="bg-danger text-center text-white">
+            <h1>Source/Path</h1>
+            <h1>Static URL</h1>
+          </div>
 
-            <tbody>
-              {data.allFile.edges.map(({ node }, index) => (
-                <tr key={index}>
-                  <td>
-                    /{node.sourceInstanceName}/{node.relativePath}
-                  </td>
+          {data.allFile.edges.map(({ node }, index) => (
+            <div key={node.id} id={node.id} className="btn-group">
+              <a className="btn btn-link" href={node.publicURL}>{node.name}</a>
+            </div>
+          ))}
 
-                  <td><a href={node.name}>{node.relativePath}</a></td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
         </div>
         <br />
 
         <h2>All Image Sharp Query</h2>
 
         <div className="container">
-          <table className="table table-sm table-light text-center" id="ImagesTable">
-            <thead>
-              <tr className="bg-danger text-center text-white">
-                <th>img src=".."</th>
-                <th>Sizes</th>
-              </tr>
-            </thead>
-            <tbody className="Image-Details">
-              {data.allImageSharp.edges.map(({ node }, index) => (
-                <tr key={index}>
-                  <td><a href={node.original.src}>{node.original.src}</a></td>
-                  <td>{node.sizes.sizes}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
+          {data.allImageSharp.edges.map(({ node }, index) => (
+            <div key={node.id}>
+              <img className="img-fluid" src={node.fluid.src} alt={node.name} />
+            </div>
+          ))}
         </div>
       </article>
     </article>
@@ -67,6 +47,7 @@ export const query = graphql`
     allFile {
       edges {
         node {
+          id
           name
           sourceInstanceName
           relativePath
@@ -77,6 +58,10 @@ export const query = graphql`
     allImageSharp {
       edges {
         node {
+          id
+          fluid {
+            src
+          }
           original {
             src
           }

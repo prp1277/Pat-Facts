@@ -7,8 +7,8 @@ class Introduction extends React.Component {
       <div id="Landing" className="container bg-secondary text-light my-1 p-2">
 
         <section id="greeting" className="col flex-row">
-          <h1><b>Welcome to {siteMetadata.title}</b></h1>
-          <h5><b>Follow the links above to see samples of {siteMetadata.contact.name}'s work</b></h5>
+          <h1>Welcome to {siteMetadata.title}</h1>
+          <h5>{siteMetadata.description}</h5>
         </section>
 
         <section id="introduction" className="row py-2 justify-content-center">

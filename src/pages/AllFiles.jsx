@@ -31,10 +31,10 @@ const AllFiles = () => (
   }
 }
   `} render={(data) => (
-      <div className="container">
+      <div className="container-fluid">
         {data.allFile.edges.map(({ node }, index) => (
-          <div key={index} id={node.id} className="my-1 mx-1">
-            <a className="btn btn-danger btn-sm" href={node.publicURL}>{node.name}</a>
+          <div key={index} id={node.id} className="btn-group my-1 mx-1">
+            <a className="btn btn-danger btn-sm" href={node.name}>{node.name}</a>
           </div>
         ))}
       </div>

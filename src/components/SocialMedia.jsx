@@ -5,8 +5,10 @@ class LinkGroup extends React.Component {
   render() {
     const SM = siteMetadata.contact.SocialMedia;
     return (
-      <div className="container align-content-center">
-        <div id="icons" className="row nav-item justify-content-center">
+      <div className="container-fluid align-content-center">
+
+        <div id="icons" className="row nav-item">
+
           <a className="nav-link" href={SM.github.address}>
             <img src={SM.github.logo} className="mx-1" alt="github" /></a>
 
@@ -24,7 +26,9 @@ class LinkGroup extends React.Component {
 
           <a className="nav-link" href={SM.twitter.address}>
             <img src={SM.twitter.logo} className="mx-1" alt="twitter" /></a>
+
         </div>
+
       </div>
     );
   }

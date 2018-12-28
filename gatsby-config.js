@@ -3,34 +3,34 @@ const path = require(`path`);
 const siteMetadata = {
   siteUrl: "https://pat-facts.netlify.com/",
   title: "Pat Facts",
-  description: "Patrick Powell's Blog and Resources",
+  description: "Helping Businesses Do Business, Intelligently",
   homePage: "https://github.com/prp1277/pat-facts/#readme.md",
   contact: {
     name: "Patrick Powell",
     SocialMedia: {
       email: {
         address: "MailTo:prp1277@gmail.com",
-        logo: "https://img.icons8.com/metro/50/e7e6e6/email.png"
+        logo: "https://img.icons8.com/color/50/000000/email.png"
       },
       github: {
         address: "https://github.com/prp1277/",
-        logo: "https://img.icons8.com/metro/50/e7e6e6/github.png"
+        logo: "https://img.icons8.com/color/50/000000/github.png"
       },
       linkedin: {
         address: "https://linkedin.com/in/prpowell1277/",
-        logo: "https://img.icons8.com/metro/50/e7e6e6/linkedin.png"
+        logo: "https://img.icons8.com/color/50/000000/linkedin.png"
       },
       facebook: {
         address: "https://facebook.com/patrick.powell1",
-        logo: "https://img.icons8.com/metro/50/e7e6e6/facebook.png"
+        logo: "https://img.icons8.com/color/50/000000/facebook.png"
       },
       twitter: {
         address: "https://twitter.com/patp0w/",
-        logo: "https://img.icons8.com/metro/50/e7e6e6/twitter.png"
+        logo: "https://img.icons8.com/color/50/000000/twitter.png"
       },
       instagram: {
         address: "https://www.instagram.com/patp0w/",
-        logo: "https://img.icons8.com/metro/50/e7e6e6/instagram.png"
+        logo: "https://img.icons8.com/color/50/000000/instagram-new.png"
       },
     },
   }

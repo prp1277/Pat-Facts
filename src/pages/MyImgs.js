@@ -19,32 +19,25 @@ export default ({ data }) => {
         <h1 className="text-white">Image Reference</h1>
         <h3 className="text-white">Note: Sizes are in W <b>|</b> H format</h3>
 
-        <section id="main">
+        <section id="main" className="container-fluid">
 
-          <table id="table"
-            className="table-responsive table-light text-nowrap">
+          {/* <h1 className="bg-danger text-white">Original Image</h1> */}
+          {/* <h1 className="bg-danger text-white">Fluid Src</h1> */}
 
-            <thead>
-              <th className="bg-danger text-white">https://daveswoodworking.netlify.com/</th>
-              <th className="bg-danger text-white">Fluid Src</th>
-            </thead>
-
-            <tbody>
-              {data.allImageSharp.edges.map(({ node }, index) => (
-                <tr key={node.id}>
-                  <td>{node.original.src}</td>
-                  <td>{node.fluid.srcWebp}</td>
-                </tr>
-              ))}
-            </tbody>
-
-          </table>
+          <section className="col">
+            {data.allImageSharp.edges.map(({ node }, index) => (
+              <div key={node.id}>
+                {/* <img src={node.original.src} alt={node.name} /> */}
+                <img src={node.fluid.srcWebp} alt={node.name} className="img-fluid my-1" />
+              </div>
+            ))}
+          </section>
 
         </section>
 
-        <Footer />
-
       </article>
+
+      <Footer />
     </div>
   );
 };

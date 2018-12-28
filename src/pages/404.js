@@ -11,6 +11,7 @@ class NotFoundPage extends React.Component {
   render() {
     return (
       <div id="root">
+
         <Helmet>
           <meta charset="utf-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes"></meta>
@@ -20,19 +21,26 @@ class NotFoundPage extends React.Component {
           <meta property="og:image" content="favicon.svg" />
           <meta property="og:title" content={siteMetadata.title} />
         </Helmet>
+
         <Navbar />
+
         <PageLinks />
+
         <article id="Page" className="container p-3">
 
           <section className="container-fluid bg-light justify-content-center mx-1 py-2" >
             <h1>Uh Oh</h1>
-            <img className="img-fluid" src="/static/404-1e6e1c9faff405d21dd6c62700630536.gif" alt="404"></img>
             <h3>It doesn't look like that page exists.</h3>
-            <h3> Try one of the links above</h3>
+            <p>Please
+              <a href={siteMetadata.contact.SocialMedia.email.address}> Email Me</a> if you notice any bugs or errors
+            </p>
+            <img className="img-fluid mb-2" src="/static/404-1e6e1c9faff405d21dd6c62700630536.gif" alt="404" />
           </section>
 
         </article>
+
         <Footer />
+
       </div>
     );
   }
