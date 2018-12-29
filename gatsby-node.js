@@ -30,18 +30,26 @@ exports.createPages = ({ graphql, actions }) => {
         }
       }
     `).then((result) => {
-        result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-          createPage({
-            path: node.fields.slug,
-            component: path.resolve(`./src/templates/mdCompiler.js`),
-            context: {
-              slug: node.fields.slug,
-            },
-          });
+      result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+        createPage({
+          path: node.fields.slug,
+          component: path.resolve(`./src/templates/mdCompiler.js`),
+          context: {
+            slug: node.fields.slug,
+          },
         });
-        resolve();
       });
+      resolve();
+    });
   });
+};
+
+exports.onCreatePage = async ({ page, actions }) => {
+  const { createPage } = actions
+  if (page.path.match(/^\/app/)) {
+    page.matchPath = "/app/*"
+    createPage(page)
+  }
 };
 
 //const fileNode = getNode(node.parent);
