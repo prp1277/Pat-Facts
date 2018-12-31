@@ -1,16 +1,10 @@
----
-title: "To Do"
-date: "2018-12-09"
----
+# Fix Motherboard Problems
 
-# Structure Directory
+**Problem:**
+The compputer overheats when using Excel Power Query, a USB-C charger and VSCode
 
-## JS Landing Page Templates like `mdCompiler.js`
+- [ ] - Take Computer back to Ken's Computer Repair
 
-# Lighthouse Audit
+- [ ] - Throw Away POS Charger
 
-## Manifest, Site-Map
-
-# ImageSharp Caching
-
-## Identify which GraphQL query is the issue
+- [ ] - Find better solution
