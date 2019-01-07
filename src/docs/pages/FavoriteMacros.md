@@ -55,7 +55,7 @@ End Sub
 
 This macro takes a cell with regular text and converts it to a clickable hyperlink (assuming a valid address).
 
-```visual-basic
+```vb
 Sub ConvertToHyperlink()
     'Keyboard Shortcut Ctrl + Shift + H
     
@@ -69,7 +69,7 @@ End Sub
 
 This is the newest addition to my macro workbook, and I have to admit, it may be my favorite one. Paired with the Quick Format macro above, you can easily paste an html page into Excel, have it formatted and strip the links in seconds.
 
-```visual-basic
+```vb
 Sub PasteLinkRight()
     ' This macro works as if you used ctrl + r
     ' Except it strips the hyperlink and pastes as text
