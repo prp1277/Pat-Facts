@@ -29,7 +29,7 @@ class App extends React.Component {
 
         <PageLinks />
 
-        <article id="Page" className="container p-3">
+        <article id="Page" className="container px-5">
 
           <section className="row flex justify-content-center mx-1" >
             <div id="HolidayGreeting" className="container mb-4 shadow-lg">

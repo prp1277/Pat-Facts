@@ -8,7 +8,7 @@ class Card extends React.Component {
         className="card my-2 p-2 shadow-lg bg-secondary">
 
         <img id="card-image"
-          className="card shadow-lg img-fluid"
+          className="card-img shadow-lg img-fluid"
           src="https://picsum.photos/300/200/?random"
           alt="" />
 
@@ -57,7 +57,7 @@ const BlogCard = () => {
     <div id="Card" className="card container-fluid mx-2 my-2 p-2 shadow-lg bg-secondary text-light">
       <img id="card-image"
         className="card-img img-responsive img-thumbnail"
-        src="./static/6993928d663e0e6cc67857c0cf1768ba/765ea/StudyGuidesTweet.webp"
+        src="./static/bcbe3aef83b4f450df4c97f266bdb308/a4672/Blog-Post.webp"
         alt="" />
 
       <div id="card-body"
@@ -88,8 +88,8 @@ const ToDoCard = () => {
   return (
     <div id="Card" className="card container-fluid mx-2 my-2 p-2 shadow-lg bg-secondary text-light">
       <img id="card-image"
-        className="card-img img-responsive img-thumbnail"
-        src="./static/caa0c6fcf631a8e8ae30a47a7a71c0e0/be19b/CatastrophicFail.webp"
+        className="img-fluid img-thumbnail"
+        src="./static/404-1e6e1c9faff405d21dd6c62700630536.gif"
         alt="" />
 
       <div id="card-body"

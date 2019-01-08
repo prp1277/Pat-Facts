@@ -5,7 +5,7 @@ class LinkGroup extends React.Component {
   render() {
     const SM = siteMetadata.contact.SocialMedia;
     return (
-      <div className="container-fluid align-content-center">
+      <div className="container align-content-center">
 
         <div id="icons" className="row nav-item">
 

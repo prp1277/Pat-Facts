@@ -18,14 +18,14 @@
  pre[class*="language-"] {
   color: #f8f9fa;
    background: none;
-   font-family: 'Fira Code Retina','Noto Sans Mono','Source Code Pro';
-   font-size: 87%;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 100%;
    text-align: left;
    white-space: pre;
    word-spacing: normal;
    word-break: normal;
    word-wrap: normal;
-   line-height: 1.25;
+   line-height: 1.20;
  
    -moz-tab-size: 4;
    -o-tab-size: 4;
@@ -115,7 +115,7 @@
 
  
  .token.comment {
-   color: slategray;
+   color: #00a100;
    font-style: italic;
  }
 
@@ -232,4 +232,3 @@
  pre .line-highlight {
    margin-top: 0;
  }
- 

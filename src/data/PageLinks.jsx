@@ -25,13 +25,13 @@ const PageLinks = () => (
     `} render={(data) => (
 
       <div id="site-nav" className="nav nav-item justify-content-center">
-        
+
         <div className="nav-item btn-group">
-          <a href="/404" className="nav-link btn-sm btn-danger mx-2 my-1">About Me</a>
+          <a href="/About" className="nav-link btn-sm btn-danger mx-2 my-1">About Me</a>
           <a href="/docs" className="nav-link btn-sm btn-danger mx-2 my-1">Blog</a>
           <a href="/docs/pages/Checklist" className="nav-link btn-sm btn-danger mx-2 my-1">To Do List</a>
         </div>
-        
+
       </div>
 
     )}
