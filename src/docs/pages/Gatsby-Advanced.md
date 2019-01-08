@@ -6,7 +6,7 @@ date: "2018-08-28"
 
 # Borrowed from "Advanced-Gatsby-Starter"
 
-```js
+```jsx
 const path = require("path");
 const _ = require("lodash");
 const moment = require("moment");

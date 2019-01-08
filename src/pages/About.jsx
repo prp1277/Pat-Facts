@@ -1,14 +1,26 @@
 import React from "react";
-import LinkGroup from "../components/SocialMedia";
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
-import PageLinks from '../data/PageLinks';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './index.css';
+import Helmet from 'react-helmet';
+import { siteMetadata } from '../../gatsby-config';
+import Navbar from "../components/Navbar";
+import PageLinks from "../data/PageLinks";
+import Footer from "../components/Footer";
 
 
 export default () => {
   return (
     <div id="root">
       {/** id=root */}
+      <Helmet>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes"></meta>
+        <title>{siteMetadata.title}</title>
+        <meta name="author" content={siteMetadata.contact.name} />
+        <meta property="og:description" content={siteMetadata.description} />
+        <meta property="og:image" content="favicon.svg" />
+        <meta property="og:title" content={siteMetadata.title} />
+      </Helmet>
       <Navbar />
 
       <PageLinks />
@@ -21,16 +33,11 @@ export default () => {
           <p> I started this website as a way to gain experience in website development and programming. My goal is to provide insight, tutorials and opinions on various technologies and topics. </p>
         </section>
 
-        <section className="flex-row border-bottom">
-          <h1>Interests:</h1>
-          <h4>Finance, Web Development, Business Intelligence </h4>
-        </section>
-
-        <h2>Background</h2>
+        <h2>Education</h2>
         <p>
           I'm originally from Omaha, NE, went to Missouri State University in
           Springfield, MO and moved to Kansas City after graduating in December
-          2015 with a B.S. in Finance and a Minor in Accounting.
+          2015 with a <b>B.S. in Finance and a Minor in Accounting</b>.
         </p>
         <h2>Work</h2>
         <p>
