@@ -32,6 +32,10 @@ const siteMetadata = {
         address: "https://www.instagram.com/patp0w/",
         logo: "https://img.icons8.com/color/50/000000/instagram-new.png"
       },
+      dev: {
+        address: "https://dev.to/prp1277",
+        logo: "https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg"
+      }
     },
   }
 };

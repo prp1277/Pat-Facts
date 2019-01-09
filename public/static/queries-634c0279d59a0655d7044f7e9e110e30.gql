@@ -1,0 +1,371 @@
+##################
+# Blog Posts
+##################
+query ($slug: String!) {
+  markdownRemark(fields: {slug: {eq: $slug}}) {
+    html
+    frontmatter {
+      title
+      date
+    }
+  }
+}
+##################
+# Image Links
+##################
+{
+  allFile {
+    edges {
+      node {
+        sourceInstanceName
+        relativePath
+        publicURL
+      }
+    }
+  }
+  allImageSharp {
+    edges {
+      node {
+        id
+        changeTime(fromNow: true)
+        original {
+          src
+        }
+        sizes {
+          originalName
+          sizes
+          aspectRatio
+        }
+      }
+    }
+  }
+}
+##################
+# Webpack 
+##################
+{
+  allImageSharp {
+    edges {
+      node {
+        id
+        changeTime(fromNow: true)
+        original {
+          src
+        }
+        fluid {
+          srcWebp
+        }
+      }
+    }
+  }
+}
+##################
+
+##################
+{
+  allFile {
+    edges {
+      node {
+        id
+        changeTime(fromNow: true)
+        name
+        relativePath
+        publicURL
+      }
+    }
+  }
+}
+##################
+# Markdown Links
+##################
+{
+  allMarkdownRemark {
+    edges {
+      node {
+        id
+        changeTime(fromNow: true)
+        frontmatter {
+          title
+        }
+        fields {
+          slug
+        }
+      }
+    }
+  }
+}
+##################
+# Directory 
+# Information
+##################
+query MasterData {
+  allFile(sort: {fields: [relativeDirectory]}) {
+    edges {
+      node {
+        sourceInstanceName
+        relativeDirectory
+        name
+        changeTime(fromNow: true)
+        relativePath
+        publicURL
+      }
+      next{
+        relativePath
+      }
+      previous{
+        relativePath
+      }
+    }
+  }
+}
+##################
+
+##################
+query Paginate {
+  allSitePage {
+    edges {
+      node {
+        id
+        path
+        changeTime(fromNow: true)
+      }
+      next {
+        path
+      }
+      previous {
+        path
+      }
+    }
+  }
+}
+
+##################
+# gatsby-node.js
+##################
+{
+  allMarkdownRemark {
+    edges {
+      node {
+        changeTime(fromNow: true)
+        fields {
+          slug
+        }
+      }
+    }
+  }
+}
+
+##################
+# AllFiles.jsx
+##################
+query AllFiles {
+  allFile {
+    edges {
+      node {
+        changeTime(fromNow: true)
+        name
+        relativePath
+        publicURL
+      }
+    }
+  }
+}
+
+##################
+# AllImgs.jsx
+##################
+query AllImages {
+  allImageSharp {
+    edges {
+      node {
+        id
+        changeTime(fromNow: true)
+        fluid {
+          src
+        }
+      }
+    }
+  }
+}
+
+##################
+# PageLinks.jsx
+##################
+{
+  allMarkdownRemark {
+    edges {
+      node {
+        id
+        changeTime(fromNow: true)
+        frontmatter {
+          title
+        }
+        fields {
+          slug
+        }
+      }
+    }
+  }
+}
+
+##################
+# SiteMap.jsx
+##################
+{
+  allFile(sort: {fields: [relativeDirectory]}) {
+    edges {
+      node {
+        name
+        sourceInstanceName
+        relativeDirectory
+        relativePath
+        publicURL
+        changeTime(fromNow: true)
+      }
+    }
+  }
+}
+
+##################
+# Compiler-MD.js
+##################
+query ($slug: String!) {
+  markdownRemark(fields: {slug: {eq: $slug}}) {
+    html
+    frontmatter {
+      title
+    }
+  }
+}
+
+##################
+# Img-Sharp.js
+##################
+{
+  allImageSharp {
+    edges {
+      node {
+        id
+        original {
+          src
+          width
+          height
+        }
+        fluid {
+          src
+          presentationWidth
+          presentationHeight
+        }
+        fixed {
+          src
+          width
+          height
+        }
+      }
+    }
+  }
+}
+
+##################
+# Master-MD.js
+##################
+{
+  allFile(filter: {extension: {eq: "md"}}) {
+    edges {
+      node {
+        id
+        name
+        changeTime(fromNow: true)
+        relativePath
+        publicURL
+        childMarkdownRemark {
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+          }
+        }
+      }
+    }
+  }
+}
+
+##################
+# Master-Image.js
+##################
+{
+  allFile {
+    edges {
+      previous {
+        relativePath
+      }
+      next {
+        relativePath
+      }
+      node {
+        relativeDirectory
+        changeTime(fromNow: true)
+        base
+        id
+        publicURL
+        childImageSharp {
+          fluid {
+            srcWebp
+          }
+        }
+      }
+    }
+  }
+}
+
+
+##################
+# Paginate.jsx
+##################
+{
+  allMarkdownRemark {
+    edges {
+      node {
+        id
+        fields {
+          slug
+        }
+      }
+      previous {
+        fields {
+          slug
+        }
+      }
+      next {
+        fields {
+          slug
+        }
+      }
+    }
+  }
+}
+
+##################
+# CarouselImgs.jsx
+##################
+{
+  site {
+    siteMetadata {
+      title
+    }
+  }
+  allImageSharp {
+    edges {
+      node {
+        original {
+          src
+        }
+        fluid {
+          srcWebp
+          originalName
+        }
+      }
+    }
+  }
+}

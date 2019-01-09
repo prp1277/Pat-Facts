@@ -61,5 +61,4 @@ typings/
 *.http
 
 .cache/
-public
 yarn-error.log

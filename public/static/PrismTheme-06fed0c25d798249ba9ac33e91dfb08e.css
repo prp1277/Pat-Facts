@@ -1,0 +1,234 @@
+/**
+ * prism.js Coy theme for JavaScript, CoffeeScript, CSS and HTML
+ * Based on https://github.com/tshedor/workshop-wp-theme (Example: http://workshop.kansan.com/category/sessions/basics or http://workshop.timshedor.com/category/sessions/basics);
+ * @author Tim  Shedor
+ */
+
+ .gatsby-highlight code {
+   padding-top: 10px;
+   padding-bottom: 10px;
+ }
+
+ .gatsby-highlight p, span{
+  padding-left: 10px;
+}
+
+.gatsby-highlight
+ code[class*="language-"],
+ pre[class*="language-"] {
+  color: #f8f9fa;
+   background: none;
+   font-family: Consolas;
+   font-size: 100%;
+   text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+   word-break: normal;
+   word-wrap: normal;
+   line-height: 1.20;
+ 
+   -moz-tab-size: 2;
+   -o-tab-size: 2;
+   tab-size: 2;
+ 
+   -webkit-hyphens: none;
+   -moz-hyphens: none;
+   -ms-hyphens: none;
+   hyphens: none;
+ }
+ 
+ /* Code blocks */
+ .gatsby-highlight pre[class*="language-"] {
+   position: relative;
+   margin: 0;
+   overflow: visible;
+ }
+ 
+ .gatsby-highlight pre[class*="language-"]>code {
+   position: relative;
+   border-left: 8px solid #28a745;
+   border-right: 8px solid #28a745;
+   background-color: #272822;
+   background-size: 3em 3em;
+   background-origin: content-box;
+   background-attachment: local;
+ }
+ 
+.gatsby-highlight code[class*="language"] {
+   max-height: inherit;
+   height: inherit;
+   padding: 1rem;
+   display: block;
+   overflow: auto;
+ }
+ 
+ /* Margin bottom to accomodate shadow */
+ :not(pre) > code[class*="language-"],
+ pre[class*="language-"] {
+   background-color: #f8f9fa;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   margin-bottom: 1em;
+ }
+ 
+ /* Inline code */
+ :not(pre) > code[class*="language-"] {
+	position: relative;
+	padding: .2em;
+	border-radius: 0.3em;
+	color: #c92c2c;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	display: inline;
+	white-space: normal;
+ }
+ 
+ .gatsby-highlight pre[class*="language-"]:before,
+ pre[class*="language-"]:after {
+   content: '';
+   z-index: -2;
+   display: block;
+   position: absolute;
+   bottom: 0.75em;
+   left: 0.5em;
+   width: 40%;
+   height: 20%;
+   max-height: 13em;
+   box-shadow: 0px 13px 8px #000;
+   -webkit-transform: rotate(-2deg);
+   -moz-transform: rotate(-2deg);
+   -ms-transform: rotate(-2deg);
+   -o-transform: rotate(-2deg);
+   transform: rotate(-2deg);
+ }
+ 
+ :not(pre) > code[class*="language-"]:after,
+ pre[class*="language-"]:after {
+   right: 0.75em;
+   left: auto;
+   -webkit-transform: rotate(2deg);
+   -moz-transform: rotate(2deg);
+   -ms-transform: rotate(2deg);
+   -o-transform: rotate(2deg);
+   transform: rotate(2deg);
+ }
+
+ 
+ .token.comment {
+   color: #00a100;
+   font-style: italic;
+ }
+
+ .token.prolog,
+ .token.doctype,
+ .token.cdata {
+   color: slategray;
+ }
+ 
+ .token.punctuation {
+   color: #f8f8f2;
+ }
+ 
+ .namespace {
+   opacity: .7;
+ }
+ 
+ .token.property,
+ .token.tag,
+ .token.constant,
+ .token.symbol,
+ .token.deleted {
+   color: #f92672;
+ }
+ 
+ .token.boolean,
+ .token.number {
+   color: #ae81ff;
+ }
+ 
+ .token.selector,
+ .token.attr-name,
+ .token.string,
+ .token.char,
+ .token.builtin,
+ .token.inserted {
+   color: #a6e22e;
+ }
+ 
+ .token.operator,
+ .token.entity,
+ .token.url,
+ .language-css .token.string,
+ .style .token.string,
+ .token.variable {
+   color: #f8f8f2;
+ }
+ 
+ .token.atrule,
+ .token.attr-value,
+ .token.function,
+ .token.class-name {
+   color: #e6db74;
+ }
+ 
+ .token.keyword {
+   color: #66d9ef;
+ }
+ 
+ .token.regex,
+ .token.important {
+   color: #fd971f;
+ }
+ 
+ .token.important,
+ .token.bold {
+   font-weight: bold;
+ }
+ .token.italic {
+   font-style: italic;
+ }
+ 
+ .token.entity {
+   cursor: help;
+ }
+ 
+ @media screen and (max-width: 767px) {
+   pre[class*="language-"]:before,
+   pre[class*="language-"]:after {
+     bottom: 14px;
+     box-shadow: none;
+   }
+ 
+ }
+ 
+ /* Plugin styles */
+ .token.tab:not(:empty):before,
+ .token.cr:before,
+ .token.lf:before {
+   color: #e0d7d1;
+ }
+ 
+ /* Plugin styles: Line Numbers */
+ pre[class*="language-"].line-numbers.line-numbers {
+   padding-left: 0;
+ }
+ pre[class*="language-"].line-numbers.line-numbers code {
+   padding: 10px;
+ }
+ pre[class*="language-"].line-numbers.line-numbers .line-numbers-rows {
+   left: 0;
+ }
+ 
+ /* Plugin styles: Line Highlight */
+ pre[class*="language-"][data-line] {
+   padding-top: 0;
+   padding-bottom: 0;
+   padding-left: 0;
+ }
+ pre[data-line] code {
+   position: relative;
+   padding-left: 4px;
+ }
+ pre .line-highlight {
+   margin-top: 0;
+ }
