@@ -80,8 +80,8 @@ export default () => {
           literally get data from anywhere.
         </p>
 
+        <Media />
       </article>
-      <Media />
 
       <Footer />
     </div >

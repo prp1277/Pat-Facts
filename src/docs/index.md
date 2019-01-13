@@ -4,6 +4,8 @@ title: "Patrick's Blog"
 
 # Posts
 
+<center>
+
 #### [To Do](/docs/pages/Checklist/)
 
 My personal to-do list for this website and others
@@ -16,6 +18,10 @@ My personal to-do list for this website and others
 #### [Favorite Macros](/docs/pages/FavoriteMacros/)
 
 Some VBA from my personal macro workbook to automate formatting Excel documents
+
+<!-- #### [Customer Routing](/docs/pages/Routing/)
+
+A post explaining the process of Geocoding addresses to optimize delivery efficiency -->
 
 #### [Get & Transform](/docs/pages/Get&Transform/)
 
@@ -42,3 +48,5 @@ A Behind-The-Scenes look at the queries that make this site possible.
 #### [Essentials of GraphQL](/docs/pages/LyndaGQL/)
 
 Notes that I took while watching [Essentials of GraphQL](https://www.linkedin.com/learning/graphql-essential-training/data-persistence-with-sql)
+
+<center>
