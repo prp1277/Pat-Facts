@@ -9,6 +9,7 @@ import PageLinks from "../data/PageLinks";
 import Footer from "../components/Footer";
 import { CardGroup } from "../components/Card";
 import Introduction from '../components/Introduction';
+import Media from '../components/Media';
 
 class App extends React.Component {
   render() {
@@ -31,10 +32,13 @@ class App extends React.Component {
 
         <article id="Page" className="container px-5">
 
-          <section className="row flex justify-content-center mx-1" >
-            <div id="HolidayGreeting" className="container mb-4 shadow-lg">
+          <section className="row flex justify-content-center mx-1">
+            {/* 
+            Add this section back for an intro-container
+            <div className="container mb-4 shadow-lg">
               <h1 className="card-header text-white">Happy Holidays!</h1>
-            </div>
+            </div> 
+            */}
 
             <Introduction />
 

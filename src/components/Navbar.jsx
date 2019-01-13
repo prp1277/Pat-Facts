@@ -1,6 +1,5 @@
 import React from "react";
 import { siteMetadata } from '../../gatsby-config'
-import LinkGroup from './SocialMedia';
 
 /**
  * Class Component
@@ -18,12 +17,6 @@ class Navbar extends React.Component {
               {siteMetadata.title}
             </a>
           </h1>
-
-          {/**<div id="icons" className="row flex-col text-center">
-            
-            <LinkGroup />
-
-          </div> */}
 
         </div>
 

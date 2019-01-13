@@ -6,14 +6,13 @@
   font-family: Verdana, sans-serif;
   font-weight: 500;
   font-size: large;
-  text-align: center;
   background-image: url('/static/06bbb0653f8a43b0f24e1d1d3f37d3e8/a4672/corn-logo.webp');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-/**  
 
+/**  
 * Christmas Theme: https://www.zingerbugimages.com/backgrounds/red_and_green_stars.gif
 * CornField: https://i.imgur.com/MYJQtez.png
 * Excel: https://i.imgur.com/0TVjvSX.png
@@ -21,14 +20,15 @@
 */
 
 #site-nav {
+  /*<div id="site-nav" className="nav nav-item justify-content-center">*/
   border: 1px solid #000;
   background-color: #8a8888;
   overflow: hidden;
 }
 
 article {
-  /* box-shadow: -4px 6px 8px 0px #000000, 0 6px 20px 0 #00000030; */
-  text-align: center;
+  /* box-shadow: -4px 6px 8px 0px #000000, 0 6px 20px 0 #00000030; 
+  text-align: center;*/
   display: inherit;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -43,10 +43,12 @@ article {
 }
 
 #Landing {
+  /* <div id="Landing" className="container bg-secondary text-light my-1 p-2"> */
   box-shadow: 0 8px 16px 0 #00000033, 0 6px 20px 0 #00000030;
 }
 
 #main {
+  /* <div id="main" className="container-fluid bg-light shadow-lg"> */
   display: block;
   max-width: 100vw;
   border: 2px solid #ccc;
@@ -54,25 +56,28 @@ article {
   padding: 1rem;
   margin-block-end: 1rem;
   overflow: auto;
-  /* text-align: center; */
-  /* box-shadow: -2px 8px 16px 0 #00000033, 0 6px 20px 0 #00000030; */
-  /* padding-left: 8px; */
-  /* padding-right: 8px; */
+}
+
+#main h1 {
+  text-align: center;
 }
 
 a {
   color: #17a2b8;
-} 
+}
+
 /** 
 * Red: #c92c2c 
 * bg-info: #17a2b8
 */
 
 #icons img {
-  box-shadow: none; 
+  /* <div id="icons" className="row nav-item"> */
+  box-shadow: none;
 }
 
 #mediaImg {
+  /* <img id="mediaImg" className="img-thumbnail" src={"https://avatars2.githubusercontent.com/u/36834793?v=4"} alt="Patrick" /> */
   max-width: 25vw;
 }
 
@@ -86,22 +91,12 @@ h3 {
   font-style: bold;
 }
 
-#media img {
-  box-shadow: 0 8px 16px 0 #00000033, 0 6px 20px 0 #00000030;
-  margin-bottom: 1rem;
-  max-width: 75vw;
-}
-
 .Card {
+  /* <div id="Card" className="card container-fluid mx-2 my-2 p-2 shadow-lg bg-secondary text-light"> */
   box-shadow: 0 8px 16px 0 #00000033, 0 6px 20px 0 #00000030;
 }
 
-#card-image{
-  max-width: 25vw;
+#card-image {
+  /* <img id="card-image" className="card-img img-responsive img-thumbnail" */
   align-self: center;
-}
-
-#HolidayGreeting {
-  background-image: url('https://www.zingerbugimages.com/backgrounds/red_and_green_stars.gif');
-  background-attachment:fixed;
 }

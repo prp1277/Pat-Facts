@@ -1,5 +1,6 @@
 import React from "react";
 
+
 class Card extends React.Component {
   render() {
     return (
@@ -55,10 +56,11 @@ const CardGroup = () => {
 const BlogCard = () => {
   return (
     <div id="Card" className="card container-fluid mx-2 my-2 p-2 shadow-lg bg-secondary text-light">
-      <img id="card-image"
-        className="card-img img-responsive img-thumbnail"
-        src="./static/bcbe3aef83b4f450df4c97f266bdb308/a4672/Blog-Post.webp"
-        alt="" />
+      <a href="./docs">
+        <img id="card-image"
+          className="card-img img-responsive img-thumbnail"
+          src="./static/bcbe3aef83b4f450df4c97f266bdb308/a4672/Blog-Post.webp"
+          alt="" /></a>
 
       <div id="card-body"
         className="card-body text-center">
@@ -87,10 +89,11 @@ const BlogCard = () => {
 const ToDoCard = () => {
   return (
     <div id="Card" className="card container-fluid mx-2 my-2 p-2 shadow-lg bg-secondary text-light">
-      <img id="card-image"
-        className="img-fluid img-thumbnail"
-        src="./static/404-1e6e1c9faff405d21dd6c62700630536.gif"
-        alt="" />
+      <a href="./docs/pages/Checklist">
+        <img id="card-image"
+          className="img-fluid img-thumbnail"
+          src="./static/404-1e6e1c9faff405d21dd6c62700630536.gif"
+          alt="" /></a>
 
       <div id="card-body"
         className="card-body text-center">

@@ -6,13 +6,16 @@ class Footer extends React.Component {
     return (
       <nav className="navbar navbar-dark bg-dark">
 
-        <div className="container-fluid justify-content-center">
+        <div className="container-fluid text-center">
 
-          <div className="col flex-row navbar-text text-white">
-            <h4 className="navbar-header">Connect on social media</h4>
+          <div className="col navbar-nav">
+            <a className="nav-item text-primary" href="/">Home</a>
+            <a className="nav-item text-primary" href="/docs">Blog</a>
+            <a className="nav-item text-primary" href="/About">About</a>
           </div>
 
-          <div id="icons" className="row flex-col">
+          <div id="icons" className="col flex-row">
+            <h4 className="navbar-header text-white">Connect on social media</h4>
             <LinkGroup />
           </div>
 

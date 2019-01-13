@@ -3,25 +3,25 @@ import { graphql } from 'gatsby';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import '../templates/PrismTheme.css';
+import Navbar from "../components/Navbar";
+
 
 export default ({ data }) => {
   // console.log(data);
   return (
-    <article id="root">
+    <div id="root">
+      <Navbar />
       <article id="Page" className="container col-10 bg-secondary">
 
         <h1 className="Page-Title">File References</h1>
 
         <h2>All Files Query</h2>
-        <div className="container">
-          <div className="bg-danger text-center text-white">
-            <h1>Source/Path</h1>
-            <h1>Static URL</h1>
-          </div>
+        <div className="container-fluid">
+          <div>href=node.publicURL ; text=node.name</div>
 
           {data.allFile.edges.map(({ node }, index) => (
-            <div key={node.id} id={node.id} className="btn-group">
-              <a className="btn btn-link" href={node.publicURL}>{node.name}</a>
+            <div key={node.id} id={index} className="btn-group">
+              <a className="btn btn-info m-1" href={node.publicURL}>{node.name}</a>
             </div>
           ))}
 
@@ -38,7 +38,7 @@ export default ({ data }) => {
           ))}
         </div>
       </article>
-    </article>
+    </div>
   );
 };
 

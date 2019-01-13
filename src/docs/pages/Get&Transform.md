@@ -3,7 +3,7 @@ title: "Get & Transform"
 date: "2018-08-08"
 tags: ["Excel", "Power Query", "VBA"]
 ---
-> This was originally posted to Reddit, I copied it here for convenience
+
 ## Problem: Using Parameters
 
 I have a workbook that is set up as an Excel Table as follows:
@@ -48,6 +48,7 @@ Private Sub Workbook_BeforeClose(Cancel as Boolean)
     Call StopClock
 End Sub
 ```
+<br/>
 
 I'm already using the VBA in a workbook that pulls data from Excel's new `Stocks` data-type API and it's [working wonderfully](https://www.youtube.com/watch?v=W_14DoSfGIM), but I'd like to have the latest news as well as my account balances. The URLs in this case happen to be .rss files, but this could be applied to any interactions with APIs that have multiple endpoints.
 

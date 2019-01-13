@@ -6,6 +6,7 @@ import { siteMetadata } from '../../gatsby-config';
 import Navbar from "../components/Navbar";
 import PageLinks from "../data/PageLinks";
 import Footer from "../components/Footer";
+import Media from "../components/Media";
 
 
 export default () => {
@@ -78,7 +79,9 @@ export default () => {
           the bigger picture. Power BI opened my eyes to the fact that you can
           literally get data from anywhere.
         </p>
+
       </article>
+      <Media />
 
       <Footer />
     </div >
