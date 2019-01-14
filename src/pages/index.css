@@ -1,11 +1,42 @@
+/* :root {
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+} */
+
 #root {
   margin: 0;
   width: 100%;
   padding: 0;
   border: 0;
-  font-family: Verdana, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 500;
-  font-size: large;
+  /* font-size: large; */
   background-image: url('/static/06bbb0653f8a43b0f24e1d1d3f37d3e8/a4672/corn-logo.webp');
   background-size: cover;
   background-repeat: no-repeat;
@@ -35,13 +66,6 @@ article {
   padding: 1rem;
 }
 
-#table {
-  max-width: 75vw;
-  font-style: normal;
-  font-size: 12px;
-  flex: auto;
-}
-
 #Landing {
   /* <div id="Landing" className="container bg-secondary text-light my-1 p-2"> */
   box-shadow: 0 8px 16px 0 #00000033, 0 6px 20px 0 #00000030;
@@ -50,16 +74,12 @@ article {
 #main {
   /* <div id="main" className="container-fluid bg-light shadow-lg"> */
   display: block;
-  max-width: 100vw;
+  max-width: 75vw;
   border: 2px solid #ccc;
   align-self: center;
   padding: 1rem;
   margin-block-end: 1rem;
   overflow: auto;
-}
-
-#main h1 {
-  text-align: center;
 }
 
 a {
@@ -76,9 +96,13 @@ a {
   box-shadow: none;
 }
 
+#media-container {
+  max-width: 75vw;
+}
+
 #mediaImg {
   /* <img id="mediaImg" className="img-thumbnail" src={"https://avatars2.githubusercontent.com/u/36834793?v=4"} alt="Patrick" /> */
-  max-width: 25vw;
+  max-width: 50vw;
 }
 
 #brand {
@@ -86,7 +110,10 @@ a {
   fill: #fff;
 }
 
+h1,
+h2,
 h3 {
+  text-align: center;
   margin-bottom: 1rem;
   font-style: bold;
 }
@@ -99,4 +126,241 @@ h3 {
 #card-image {
   /* <img id="card-image" className="card-img img-responsive img-thumbnail" */
   align-self: center;
+}
+
+/**
+ * prism.js Coy theme for JavaScript, CoffeeScript, CSS and HTML
+ * Based on https://github.com/tshedor/workshop-wp-theme (Example: http://workshop.kansan.com/category/sessions/basics or http://workshop.timshedor.com/category/sessions/basics);
+ * @author Tim  Shedor
+ */
+
+.gatsby-highlight code {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.gatsby-highlight code[class*="language-"],
+pre[class*="language-"] {
+  color: #f8f9fa;
+  background: none;
+  font-size: 90%;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.20;
+
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+/* Code blocks */
+.gatsby-highlight pre[class*="language-"] {
+  position: relative;
+  margin: 0;
+  overflow: visible;
+}
+
+.gatsby-highlight pre[class*="language-"]>code {
+  font-family: "Fira Code", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  position: relative;
+  margin-bottom: 1.5rem;
+  border-left: 8px solid #28a745;
+  border-right: 8px solid #28a745;
+  background-color: #272822;
+  background-size: 3em 3em;
+  background-origin: content-box;
+  background-attachment: local;
+  box-shadow: 0 8px 16px 0 #00000033, 0 6px 20px 0 #00000030;
+}
+
+.gatsby-highlight code[class*="language"] {
+  max-height: inherit;
+  height: inherit;
+  padding: 1rem;
+  display: block;
+  overflow: auto;
+}
+
+/* Margin bottom to accomodate shadow */
+:not(pre)>code[class*="language-"],
+pre[class*="language-"] {
+  background-color: #f8f9fa;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-bottom: 1em;
+}
+
+/* Inline code */
+:not(pre)>code[class*="language-"] {
+  position: relative;
+  padding: .2em;
+  border-radius: 0.3em;
+  color: #c92c2c;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  display: inline;
+  white-space: normal;
+}
+
+.gatsby-highlight pre[class*="language-"]:before,
+pre[class*="language-"]:after {
+  content: '';
+  z-index: -2;
+  display: block;
+  position: absolute;
+  bottom: 0.75em;
+  left: 0.5em;
+  width: 40%;
+  height: 20%;
+  max-height: 13em;
+  box-shadow: 0px 13px 8px #000;
+  -webkit-transform: rotate(-2deg);
+  -moz-transform: rotate(-2deg);
+  -ms-transform: rotate(-2deg);
+  -o-transform: rotate(-2deg);
+  transform: rotate(-2deg);
+}
+
+:not(pre)>code[class*="language-"]:after,
+pre[class*="language-"]:after {
+  right: 0.75em;
+  left: auto;
+  -webkit-transform: rotate(2deg);
+  -moz-transform: rotate(2deg);
+  -ms-transform: rotate(2deg);
+  -o-transform: rotate(2deg);
+  transform: rotate(2deg);
+}
+
+.token.comment {
+  color: #00a100;
+  font-style: italic;
+}
+
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: slategray;
+}
+
+.token.punctuation {
+  color: #f8f8f2;
+}
+
+.namespace {
+  opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+  color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+  color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+  color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+  color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+  color: #e6db74;
+}
+
+.token.keyword {
+  color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+  color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+  font-weight: bold;
+}
+
+.token.italic {
+  font-style: italic;
+}
+
+.token.entity {
+  cursor: help;
+}
+
+@media screen and (max-width: 767px) {
+
+  pre[class*="language-"]:before,
+  pre[class*="language-"]:after {
+    bottom: 14px;
+    box-shadow: none;
+  }
+
+}
+
+/* Plugin styles */
+.token.tab:not(:empty):before,
+.token.cr:before,
+.token.lf:before {
+  color: #e0d7d1;
+}
+
+/* Plugin styles: Line Numbers */
+pre[class*="language-"].line-numbers.line-numbers {
+  padding-left: 0;
+}
+
+pre[class*="language-"].line-numbers.line-numbers code {
+  padding: 10px;
+}
+
+pre[class*="language-"].line-numbers.line-numbers .line-numbers-rows {
+  left: 0;
+}
+
+/* Plugin styles: Line Highlight */
+pre[class*="language-"][data-line] {
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+}
+
+pre[data-line] code {
+  position: relative;
+  padding-left: 4px;
+}
+
+pre .line-highlight {
+  margin-top: 0;
 }
