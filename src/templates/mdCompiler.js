@@ -1,6 +1,5 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './PrismTheme.css';
 import { graphql } from "gatsby";
 import { siteMetadata } from '../../gatsby-config';
 import "../pages/index.css";

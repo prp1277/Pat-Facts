@@ -1,7 +1,6 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
-import '../templates/PrismTheme.css';
 import { siteMetadata } from '../../gatsby-config';
 import Helmet from 'react-helmet';
 import Navbar from "../components/Navbar";
@@ -9,7 +8,6 @@ import PageLinks from "../data/PageLinks";
 import Footer from "../components/Footer";
 import { CardGroup } from "../components/Card";
 import Introduction from '../components/Introduction';
-import Media from '../components/Media';
 
 class App extends React.Component {
   render() {

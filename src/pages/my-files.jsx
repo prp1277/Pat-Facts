@@ -2,7 +2,6 @@ import React from "react";
 import { graphql } from 'gatsby';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
-import '../templates/PrismTheme.css';
 import Navbar from "../components/Navbar";
 
 
