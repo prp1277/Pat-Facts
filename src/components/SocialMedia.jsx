@@ -6,7 +6,7 @@ class SocialMedia extends React.Component {
     const SM = siteMetadata.contact.SocialMedia;
     return (
       <div className="container-fluid">
-        <div id="icons" className="row flex justify-content-center">
+        <div id="icons" className="row justify-content-center">
 
           <a className="nav-link" href={SM.github.address}>
             <img src={SM.github.logo} className="mx-1" alt="github" />

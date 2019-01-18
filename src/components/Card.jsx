@@ -59,7 +59,7 @@ const BlogCard = () => {
       <a href="./docs">
         <img id="card-image"
           className="card-img img-responsive img-thumbnail"
-          src="./static/bcbe3aef83b4f450df4c97f266bdb308/a4672/Blog-Post.webp"
+          src="./static/bcbe3aef83b4f450df4c97f266bdb308/8423c/Blog-Post.png"
           alt="" /></a>
 
       <div id="card-body"
