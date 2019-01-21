@@ -1,9 +1,9 @@
 ---
 name: Custom Form
 about: Submit Feedback via GitHub Issues
-title: 
-labels: 
-assignees: 
+title: "[Custom]"
+labels: issue
+assignees: prp1277
 
 ---
 
