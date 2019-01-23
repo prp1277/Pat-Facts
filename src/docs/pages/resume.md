@@ -3,6 +3,7 @@ title: "Resume"
 date: "2018-07-22"
 tags: ["Resume"]
 ---
+
 <h4><b>A financial analyst with a background in operations and a passion for improving processes.</b></h4>
 <h2>
 <a href="Mailto:Prp1277@gmail.com">Email</a> --
@@ -17,14 +18,14 @@ tags: ["Resume"]
 ### Reinhart Foodservice 
 > Purchasing Assistant (August 2017 - February 2018)
 
-Built, managed and maintained Excel and Power Bi dashboards for inventory valuation to provide insights to management
+- Built, managed and maintained Excel and Power Bi dashboards for inventory valuation to provide insights to management
 
-Created dynamic Excel templates using VBA and Power Queries to optimize Procurement, Warehousing and Transportation
+- Created dynamic Excel templates using VBA and Power Queries to optimize Procurement, Warehousing and Transportation
 
-Took ownership of the weekly Perfect Order Reports and meetings to trace and eliminate invoice errors
+- Took ownership of the weekly Perfect Order Reports and meetings to trace and eliminate invoice errors
 > Decreased invoice errors due to product availability by 34%
 
-Purchased 221 Products from 22 vendors, managed inventory levels and communications between vendors, a centralized repurchasing team, sales representatives and customers
+- Purchased 221 Products from 22 vendors, managed inventory levels and communications between vendors, a centralized repurchasing team, sales representatives and customers
 
 ## State Street
 
@@ -52,11 +53,6 @@ Purchased 221 Products from 22 vendors, managed inventory levels and communicati
 - Researched and presented growth opportunities to the divisions managing directors
 
 # Education
-
-## Rockhurst University
-
-**Certificate, Data Science**
-Expected 2019
 
 ## Missouri State University
 
