@@ -50,7 +50,7 @@ in
 
 Load the table from the Excel workbook.
 
-```less
+```plsql
 let
     Source = Excel.CurrentWorkbook(){[Name="config"]}[Content],
     #"Changed Type" = Table.TransformColumnTypes(Source,{{"attribute", type text}, {"value", type text}}),
@@ -66,7 +66,7 @@ in
 
 Dependent on URL query
 
-```less
+```plsql
 let
     Source = URL,
     #"Converted to Table" = Table.FromList(Source, Splitter.SplitByNothing(), null, null, ExtraValues.Error),
@@ -81,7 +81,7 @@ in
 
 ### Owner
 
-```less
+```plsql
 let
     Source = URL,
     #"Converted to Table" = Table.FromList(Source, Splitter.SplitByNothing(), null, null, ExtraValues.Error),
@@ -101,7 +101,7 @@ in
 
 ### Condition
 
-```less
+```plsql
 let
     Source = owner,
     #"Split Column by Delimiter" = Table.SplitColumn(Source, "Value", Splitter.SplitTextByDelimiter("{", QuoteStyle.Csv), {"Value.1", "Value.2", "Value.3"}),
