@@ -1,6 +1,6 @@
 ---
 title: "GitHub's API In Excel"
-date: 2019-01-22
+date: "2019-01-22"
 ---
 
 # What Did You Do Today?

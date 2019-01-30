@@ -1,7 +1,6 @@
 ---
-title: "Get & Transform"
+title: "On Time Event"
 date: "2018-08-08"
-tags: ["Excel", "Power Query", "VBA"]
 ---
 
 ## Problem: Using Parameters
