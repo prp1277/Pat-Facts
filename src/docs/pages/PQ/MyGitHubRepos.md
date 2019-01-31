@@ -53,11 +53,31 @@ Load the table from the Excel workbook.
 ```plsql
 let
     Source = Excel.CurrentWorkbook(){[Name="config"]}[Content],
-    #"Changed Type" = Table.TransformColumnTypes(Source,{{"attribute", type text}, {"value", type text}}),
+    #"Changed Type" = Table.TransformColumnTypes(Source,
+    {
+      {"attribute", type text},
+      {"value", type text}
+    }
+    ),
     #"Transposed Table" = Table.Transpose(#"Changed Type"),
-    #"Promoted Headers" = Table.PromoteHeaders(#"Transposed Table", [PromoteAllScalars=true]),
-    #"Changed Type1" = Table.TransformColumnTypes(#"Promoted Headers",{{"endpoint:", type text}, {"parameter:", type text}}),
-    #"Merged Columns" = Table.CombineColumns(#"Changed Type1",{"endpoint:", "parameter:"},Combiner.CombineTextByDelimiter("", QuoteStyle.None),"url")
+    #"Promoted Headers" = Table.PromoteHeaders(#"Transposed Table", 
+    [PromoteAllScalars=true]
+    ),
+    #"Changed Type1" = Table.TransformColumnTypes(
+      #"Promoted Headers",
+    {
+      {"endpoint:", type text},
+      {"parameter:", type text}
+    }
+    ),
+    #"Merged Columns" = Table.CombineColumns(#"Changed Type1",
+    {
+      "endpoint:", "parameter:"
+    },
+      Combiner.CombineTextByDelimiter(
+        "", QuoteStyle.None
+      ),
+      "url")
 in
     #"Merged Columns"
 ```
