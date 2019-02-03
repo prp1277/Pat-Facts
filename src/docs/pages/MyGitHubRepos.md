@@ -1,6 +1,6 @@
 ---
 title: "GitHub's API In Excel"
-date: 2019-01-22
+date: "2019-01-22"
 ---
 
 # What Did You Do Today?
@@ -39,7 +39,7 @@ _These queries provide public user information from [Github's API](https://api.g
 
 This query imports data for other queries to reference and dig through.
 
-```less
+```jsx
 let
     Source = Json.Document(Web.Contents(endpoint & parameters))
 in
@@ -50,13 +50,18 @@ in
 
 Load the table from the Excel workbook.
 
-```less
+```jsx
 let
     Source = Excel.CurrentWorkbook(){[Name="config"]}[Content],
-    #"Changed Type" = Table.TransformColumnTypes(Source,{{"attribute", type text}, {"value", type text}}),
+    #"Changed Type" = Table.TransformColumnTypes(Source,{
+      {"attribute", type text}, 
+      {"value", type text}
+      }),
     #"Transposed Table" = Table.Transpose(#"Changed Type"),
     #"Promoted Headers" = Table.PromoteHeaders(#"Transposed Table", [PromoteAllScalars=true]),
-    #"Changed Type1" = Table.TransformColumnTypes(#"Promoted Headers",{{"endpoint:", type text}, {"parameter:", type text}}),
+    #"Changed Type1" = Table.TransformColumnTypes(#"Promoted Headers",{
+      {"endpoint:", type text}, {"parameter:", type text}
+      }),
     #"Merged Columns" = Table.CombineColumns(#"Changed Type1",{"endpoint:", "parameter:"},Combiner.CombineTextByDelimiter("", QuoteStyle.None),"url")
 in
     #"Merged Columns"
@@ -66,7 +71,7 @@ in
 
 Dependent on URL query
 
-```less
+```jsx
 let
     Source = URL,
     #"Converted to Table" = Table.FromList(Source, Splitter.SplitByNothing(), null, null, ExtraValues.Error),
@@ -81,7 +86,7 @@ in
 
 ### Owner
 
-```less
+```jsx
 let
     Source = URL,
     #"Converted to Table" = Table.FromList(Source, Splitter.SplitByNothing(), null, null, ExtraValues.Error),
@@ -101,7 +106,7 @@ in
 
 ### Condition
 
-```less
+```jsx
 let
     Source = owner,
     #"Split Column by Delimiter" = Table.SplitColumn(Source, "Value", Splitter.SplitTextByDelimiter("{", QuoteStyle.Csv), {"Value.1", "Value.2", "Value.3"}),
