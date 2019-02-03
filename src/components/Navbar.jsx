@@ -13,8 +13,8 @@ class Navbar extends React.Component {
         <div className="container-fluid">
 
           <h1 className="col">
-            <a href="/" className="text-white" alt={siteMetadata.title}>
-              {siteMetadata.title}
+            <a href="/" className="text-white">
+              { siteMetadata.title }
             </a>
           </h1>
 

@@ -1,0 +1,1049 @@
+{
+  "OccupationList": [
+    {
+      "OnetCode": "11-3011.00",
+      "OnetTitle": "Administrative Services Managers"
+    },
+    {
+      "OnetCode": "17-3021.00",
+      "OnetTitle": "Aerospace Engineering and Operations Technicians"
+    },
+    {
+      "OnetCode": "17-2011.00",
+      "OnetTitle": "Aerospace Engineers"
+    },
+    {
+      "OnetCode": "17-2021.00",
+      "OnetTitle": "Agricultural Engineers"
+    },
+    {
+      "OnetCode": "51-2011.00",
+      "OnetTitle": "Aircraft Structure, Surfaces, Rigging, and Systems Assemblers"
+    },
+    {
+      "OnetCode": "19-1011.00",
+      "OnetTitle": "Animal Scientists"
+    },
+    {
+      "OnetCode": "19-3091.01",
+      "OnetTitle": "Anthropologists"
+    },
+    {
+      "OnetCode": "25-1061.00",
+      "OnetTitle": "Anthropology and Archeology Teachers, Postsecondary"
+    },
+    {
+      "OnetCode": "19-3091.02",
+      "OnetTitle": "Archeologists"
+    },
+    {
+      "OnetCode": "17-1011.00",
+      "OnetTitle": "Architects, Except Landscape and Naval"
+    },
+    {
+      "OnetCode": "17-3011.01",
+      "OnetTitle": "Architectural Drafters"
+    },
+    {
+      "OnetCode": "11-9041.00",
+      "OnetTitle": "Architectural and Engineering Managers"
+    },
+    {
+      "OnetCode": "25-1031.00",
+      "OnetTitle": "Architecture Teachers, Postsecondary"
+    },
+    {
+      "OnetCode": "27-1011.00",
+      "OnetTitle": "Art Directors"
+    },
+    {
+      "OnetCode": "29-1125.01",
+      "OnetTitle": "Art Therapists"
+    },
+    {
+      "OnetCode": "25-1121.00",
+      "OnetTitle": "Art, Drama, and Music Teachers, Postsecondary"
+    },
+    {
+      "OnetCode": "25-1051.00",
+      "OnetTitle": "Atmospheric, Earth, Marine, and Space Sciences Teachers, Postsecondary"
+    },
+    {
+      "OnetCode": "27-4011.00",
+      "OnetTitle": "Audio and Video Equipment Technicians"
+    },
+    {
+      "OnetCode": "17-3027.01",
+      "OnetTitle": "Automotive Engineering Technicians"
+    },
+    {
+      "OnetCode": "17-2141.02",
+      "OnetTitle": "Automotive Engineers"
+    },
+    {
+      "OnetCode": "53-6051.01",
+      "OnetTitle": "Aviation Inspectors"
+    },
+    {
+      "OnetCode": "17-2199.01",
+      "OnetTitle": "Biochemical Engineers"
+    },
+    {
+      "OnetCode": "19-1021.00",
+      "OnetTitle": "Biochemists and Biophysicists"
+    },
+    {
+      "OnetCode": "11-3051.03",
+      "OnetTitle": "Biofuels Production Managers"
+    },
+    {
+      "OnetCode": "11-9041.01",
+      "OnetTitle": "Biofuels/Biodiesel Technology and Product Development Managers"
+    },
+    {
+      "OnetCode": "11-3051.04",
+      "OnetTitle": "Biomass Power Plant Managers"
+    },
+    {
+      "OnetCode": "17-2031.00",
+      "OnetTitle": "Biomedical Engineers"
+    },
+    {
+      "OnetCode": "47-2011.00",
+      "OnetTitle": "Boilermakers"
+    },
+    {
+      "OnetCode": "47-2021.00",
+      "OnetTitle": "Brickmasons and Blockmasons"
+    },
+    {
+      "OnetCode": "27-4012.00",
+      "OnetTitle": "Broadcast Technicians"
+    },
+    {
+      "OnetCode": "11-9199.11",
+      "OnetTitle": "Brownfield Redevelopment Specialists and Site Managers"
+    },
+    {
+      "OnetCode": "49-3031.00",
+      "OnetTitle": "Bus and Truck Mechanics and Diesel Engine Specialists"
+    },
+    {
+      "OnetCode": "15-1199.08",
+      "OnetTitle": "Business Intelligence Analysts"
+    },
+    {
+      "OnetCode": "51-7011.00",
+      "OnetTitle": "Cabinetmakers and Bench Carpenters"
+    },
+    {
+      "OnetCode": "25-2032.00",
+      "OnetTitle": "Career/Technical Education Teachers, Secondary School"
+    },
+    {
+      "OnetCode": "47-2041.00",
+      "OnetTitle": "Carpet Installers"
+    },
+    {
+      "OnetCode": "17-1021.00",
+      "OnetTitle": "Cartographers and Photogrammetrists"
+    },
+    {
+      "OnetCode": "17-2041.00",
+      "OnetTitle": "Chemical Engineers"
+    },
+    {
+      "OnetCode": "19-2031.00",
+      "OnetTitle": "Chemists"
+    },
+    {
+      "OnetCode": "19-4061.01",
+      "OnetTitle": "City and Regional Planning Aides"
+    },
+    {
+      "OnetCode": "17-3011.02",
+      "OnetTitle": "Civil Drafters"
+    },
+    {
+      "OnetCode": "17-3022.00",
+      "OnetTitle": "Civil Engineering Technicians"
+    },
+    {
+      "OnetCode": "17-2051.00",
+      "OnetTitle": "Civil Engineers"
+    },
+    {
+      "OnetCode": "27-1021.00",
+      "OnetTitle": "Commercial and Industrial Designers"
+    },
+    {
+      "OnetCode": "17-2061.00",
+      "OnetTitle": "Computer Hardware Engineers"
+    },
+    {
+      "OnetCode": "15-1143.00",
+      "OnetTitle": "Computer Network Architects"
+    },
+    {
+      "OnetCode": "15-1152.00",
+      "OnetTitle": "Computer Network Support Specialists"
+    },
+    {
+      "OnetCode": "51-4012.00",
+      "OnetTitle": "Computer Numerically Controlled Machine Tool Programmers, Metal and Plastic"
+    },
+    {
+      "OnetCode": "15-1131.00",
+      "OnetTitle": "Computer Programmers"
+    },
+    {
+      "OnetCode": "15-1121.00",
+      "OnetTitle": "Computer Systems Analysts"
+    },
+    {
+      "OnetCode": "15-1199.02",
+      "OnetTitle": "Computer Systems Engineers/Architects"
+    },
+    {
+      "OnetCode": "15-1151.00",
+      "OnetTitle": "Computer User Support Specialists"
+    },
+    {
+      "OnetCode": "15-1111.00",
+      "OnetTitle": "Computer and Information Research Scientists"
+    },
+    {
+      "OnetCode": "51-4011.00",
+      "OnetTitle": "Computer-Controlled Machine Tool Operators, Metal and Plastic"
+    },
+    {
+      "OnetCode": "47-2031.01",
+      "OnetTitle": "Construction Carpenters"
+    },
+    {
+      "OnetCode": "47-2061.00",
+      "OnetTitle": "Construction Laborers"
+    },
+    {
+      "OnetCode": "11-9021.00",
+      "OnetTitle": "Construction Managers"
+    },
+    {
+      "OnetCode": "47-4011.00",
+      "OnetTitle": "Construction and Building Inspectors"
+    },
+    {
+      "OnetCode": "13-1051.00",
+      "OnetTitle": "Cost Estimators"
+    },
+    {
+      "OnetCode": "27-1012.00",
+      "OnetTitle": "Craft Artists"
+    },
+    {
+      "OnetCode": "25-4012.00",
+      "OnetTitle": "Curators"
+    },
+    {
+      "OnetCode": "51-4031.00",
+      "OnetTitle": "Cutting, Punching, and Press Machine Setters, Operators, and Tenders, Metal and Plastic"
+    },
+    {
+      "OnetCode": "15-1141.00",
+      "OnetTitle": "Database Administrators"
+    },
+    {
+      "OnetCode": "51-9081.00",
+      "OnetTitle": "Dental Laboratory Technicians"
+    },
+    {
+      "OnetCode": "43-5032.00",
+      "OnetTitle": "Dispatchers, Except Police, Fire, and Ambulance"
+    },
+    {
+      "OnetCode": "15-1199.12",
+      "OnetTitle": "Document Management Specialists"
+    },
+    {
+      "OnetCode": "49-2092.00",
+      "OnetTitle": "Electric Motor, Power Tool, and Related Repairers"
+    },
+    {
+      "OnetCode": "17-3012.02",
+      "OnetTitle": "Electrical Drafters"
+    },
+    {
+      "OnetCode": "17-3023.03",
+      "OnetTitle": "Electrical Engineering Technicians"
+    },
+    {
+      "OnetCode": "17-3029.02",
+      "OnetTitle": "Electrical Engineering Technologists"
+    },
+    {
+      "OnetCode": "17-2071.00",
+      "OnetTitle": "Electrical Engineers"
+    },
+    {
+      "OnetCode": "49-9051.00",
+      "OnetTitle": "Electrical Power-Line Installers and Repairers"
+    },
+    {
+      "OnetCode": "49-2094.00",
+      "OnetTitle": "Electrical and Electronics Repairers, Commercial and Industrial Equipment"
+    },
+    {
+      "OnetCode": "49-2095.00",
+      "OnetTitle": "Electrical and Electronics Repairers, Powerhouse, Substation, and Relay"
+    },
+    {
+      "OnetCode": "47-2111.00",
+      "OnetTitle": "Electricians"
+    },
+    {
+      "OnetCode": "17-3024.00",
+      "OnetTitle": "Electro-Mechanical Technicians"
+    },
+    {
+      "OnetCode": "17-3029.03",
+      "OnetTitle": "Electromechanical Engineering Technologists"
+    },
+    {
+      "OnetCode": "51-2023.00",
+      "OnetTitle": "Electromechanical Equipment Assemblers"
+    },
+    {
+      "OnetCode": "17-3012.01",
+      "OnetTitle": "Electronic Drafters"
+    },
+    {
+      "OnetCode": "49-2096.00",
+      "OnetTitle": "Electronic Equipment Installers and Repairers, Motor Vehicles"
+    },
+    {
+      "OnetCode": "17-3023.01",
+      "OnetTitle": "Electronics Engineering Technicians"
+    },
+    {
+      "OnetCode": "17-3029.04",
+      "OnetTitle": "Electronics Engineering Technologists"
+    },
+    {
+      "OnetCode": "17-2072.00",
+      "OnetTitle": "Electronics Engineers, Except Computer"
+    },
+    {
+      "OnetCode": "13-1199.01",
+      "OnetTitle": "Energy Auditors"
+    },
+    {
+      "OnetCode": "17-2199.03",
+      "OnetTitle": "Energy Engineers"
+    },
+    {
+      "OnetCode": "51-2031.00",
+      "OnetTitle": "Engine and Other Machine Assemblers"
+    },
+    {
+      "OnetCode": "25-1032.00",
+      "OnetTitle": "Engineering Teachers, Postsecondary"
+    },
+    {
+      "OnetCode": "17-3025.00",
+      "OnetTitle": "Environmental Engineering Technicians"
+    },
+    {
+      "OnetCode": "17-2081.00",
+      "OnetTitle": "Environmental Engineers"
+    },
+    {
+      "OnetCode": "19-2041.02",
+      "OnetTitle": "Environmental Restoration Planners"
+    },
+    {
+      "OnetCode": "25-1053.00",
+      "OnetTitle": "Environmental Science Teachers, Postsecondary"
+    },
+    {
+      "OnetCode": "19-4091.00",
+      "OnetTitle": "Environmental Science and Protection Technicians, Including Health"
+    },
+    {
+      "OnetCode": "19-2041.00",
+      "OnetTitle": "Environmental Scientists and Specialists, Including Health"
+    },
+    {
+      "OnetCode": "47-5031.00",
+      "OnetTitle": "Explosives Workers, Ordnance Handling Experts, and Blasters"
+    },
+    {
+      "OnetCode": "51-6092.00",
+      "OnetTitle": "Fabric and Apparel Patternmakers"
+    },
+    {
+      "OnetCode": "27-1022.00",
+      "OnetTitle": "Fashion Designers"
+    },
+    {
+      "OnetCode": "47-4031.00",
+      "OnetTitle": "Fence Erectors"
+    },
+    {
+      "OnetCode": "27-4032.00",
+      "OnetTitle": "Film and Video Editors"
+    },
+    {
+      "OnetCode": "27-1013.00",
+      "OnetTitle": "Fine Artists, Including Painters, Sculptors, and Illustrators"
+    },
+    {
+      "OnetCode": "17-2111.02",
+      "OnetTitle": "Fire-Prevention and Protection Engineers"
+    },
+    {
+      "OnetCode": "47-1011.00",
+      "OnetTitle": "First-Line Supervisors of Construction Trades and Extraction Workers"
+    },
+    {
+      "OnetCode": "49-1011.00",
+      "OnetTitle": "First-Line Supervisors of Mechanics, Installers, and Repairers"
+    },
+    {
+      "OnetCode": "51-1011.00",
+      "OnetTitle": "First-Line Supervisors of Production and Operating Workers"
+    },
+    {
+      "OnetCode": "41-1011.00",
+      "OnetTitle": "First-Line Supervisors of Retail Sales Workers"
+    },
+    {
+      "OnetCode": "47-2042.00",
+      "OnetTitle": "Floor Layers, Except Carpet, Wood, and Hard Tiles"
+    },
+    {
+      "OnetCode": "47-2043.00",
+      "OnetTitle": "Floor Sanders and Finishers"
+    },
+    {
+      "OnetCode": "19-4092.00",
+      "OnetTitle": "Forensic Science Technicians"
+    },
+    {
+      "OnetCode": "19-4093.00",
+      "OnetTitle": "Forest and Conservation Technicians"
+    },
+    {
+      "OnetCode": "51-4071.00",
+      "OnetTitle": "Foundry Mold and Coremakers"
+    },
+    {
+      "OnetCode": "17-2141.01",
+      "OnetTitle": "Fuel Cell Engineers"
+    },
+    {
+      "OnetCode": "17-3029.10",
+      "OnetTitle": "Fuel Cell Technicians"
+    },
+    {
+      "OnetCode": "51-9071.06",
+      "OnetTitle": "Gem and Diamond Workers"
+    },
+    {
+      "OnetCode": "11-1021.00",
+      "OnetTitle": "General and Operations Managers"
+    },
+    {
+      "OnetCode": "17-1022.01",
+      "OnetTitle": "Geodetic Surveyors"
+    },
+    {
+      "OnetCode": "19-3092.00",
+      "OnetTitle": "Geographers"
+    },
+    {
+      "OnetCode": "15-1199.05",
+      "OnetTitle": "Geographic Information Systems Technicians"
+    },
+    {
+      "OnetCode": "25-1064.00",
+      "OnetTitle": "Geography Teachers, Postsecondary"
+    },
+    {
+      "OnetCode": "19-4041.02",
+      "OnetTitle": "Geological Sample Test Technicians"
+    },
+    {
+      "OnetCode": "19-4041.01",
+      "OnetTitle": "Geophysical Data Technicians"
+    },
+    {
+      "OnetCode": "19-2042.00",
+      "OnetTitle": "Geoscientists, Except Hydrologists and Geographers"
+    },
+    {
+      "OnetCode": "15-1199.04",
+      "OnetTitle": "Geospatial Information Scientists and Technologists"
+    },
+    {
+      "OnetCode": "49-9099.01",
+      "OnetTitle": "Geothermal Technicians"
+    },
+    {
+      "OnetCode": "47-2121.00",
+      "OnetTitle": "Glaziers"
+    },
+    {
+      "OnetCode": "27-1024.00",
+      "OnetTitle": "Graphic Designers"
+    },
+    {
+      "OnetCode": "51-4033.00",
+      "OnetTitle": "Grinding, Lapping, Polishing, and Buffing Machine Tool Setters, Operators, and Tenders, Metal and Plastic"
+    },
+    {
+      "OnetCode": "49-9021.01",
+      "OnetTitle": "Heating and Air Conditioning Mechanics and Installers"
+    },
+    {
+      "OnetCode": "47-3011.00",
+      "OnetTitle": "Helpers--Brickmasons, Blockmasons, Stonemasons, and Tile and Marble Setters"
+    },
+    {
+      "OnetCode": "47-3012.00",
+      "OnetTitle": "Helpers--Carpenters"
+    },
+    {
+      "OnetCode": "47-3013.00",
+      "OnetTitle": "Helpers--Electricians"
+    },
+    {
+      "OnetCode": "49-9098.00",
+      "OnetTitle": "Helpers--Installation, Maintenance, and Repair Workers"
+    },
+    {
+      "OnetCode": "51-9198.00",
+      "OnetTitle": "Helpers--Production Workers"
+    },
+    {
+      "OnetCode": "47-3016.00",
+      "OnetTitle": "Helpers--Roofers"
+    },
+    {
+      "OnetCode": "17-2112.01",
+      "OnetTitle": "Human Factors Engineers and Ergonomists"
+    },
+    {
+      "OnetCode": "19-2043.00",
+      "OnetTitle": "Hydrologists"
+    },
+    {
+      "OnetCode": "19-2041.03",
+      "OnetTitle": "Industrial Ecologists"
+    },
+    {
+      "OnetCode": "17-3026.00",
+      "OnetTitle": "Industrial Engineering Technicians"
+    },
+    {
+      "OnetCode": "17-3029.05",
+      "OnetTitle": "Industrial Engineering Technologists"
+    },
+    {
+      "OnetCode": "17-2112.00",
+      "OnetTitle": "Industrial Engineers"
+    },
+    {
+      "OnetCode": "49-9041.00",
+      "OnetTitle": "Industrial Machinery Mechanics"
+    },
+    {
+      "OnetCode": "11-3051.00",
+      "OnetTitle": "Industrial Production Managers"
+    },
+    {
+      "OnetCode": "17-2111.01",
+      "OnetTitle": "Industrial Safety and Health Engineers"
+    },
+    {
+      "OnetCode": "53-7051.00",
+      "OnetTitle": "Industrial Truck and Tractor Operators"
+    },
+    {
+      "OnetCode": "15-1199.09",
+      "OnetTitle": "Information Technology Project Managers"
+    },
+    {
+      "OnetCode": "51-9061.00",
+      "OnetTitle": "Inspectors, Testers, Sorters, Samplers, and Weighers"
+    },
+    {
+      "OnetCode": "25-9031.01",
+      "OnetTitle": "Instructional Designers and Technologists"
+    },
+    {
+      "OnetCode": "13-1031.02",
+      "OnetTitle": "Insurance Adjusters, Examiners, and Investigators"
+    },
+    {
+      "OnetCode": "27-1025.00",
+      "OnetTitle": "Interior Designers"
+    },
+    {
+      "OnetCode": "11-9199.03",
+      "OnetTitle": "Investment Fund Managers"
+    },
+    {
+      "OnetCode": "51-9071.01",
+      "OnetTitle": "Jewelers"
+    },
+    {
+      "OnetCode": "53-7062.00",
+      "OnetTitle": "Laborers and Freight, Stock, and Material Movers, Hand"
+    },
+    {
+      "OnetCode": "17-1012.00",
+      "OnetTitle": "Landscape Architects"
+    },
+    {
+      "OnetCode": "51-4192.00",
+      "OnetTitle": "Layout Workers, Metal and Plastic"
+    },
+    {
+      "OnetCode": "13-1081.00",
+      "OnetTitle": "Logisticians"
+    },
+    {
+      "OnetCode": "13-1081.01",
+      "OnetTitle": "Logistics Engineers"
+    },
+    {
+      "OnetCode": "51-4041.00",
+      "OnetTitle": "Machinists"
+    },
+    {
+      "OnetCode": "49-9071.00",
+      "OnetTitle": "Maintenance and Repair Workers, General"
+    },
+    {
+      "OnetCode": "17-3029.06",
+      "OnetTitle": "Manufacturing Engineering Technologists"
+    },
+    {
+      "OnetCode": "17-2199.04",
+      "OnetTitle": "Manufacturing Engineers"
+    },
+    {
+      "OnetCode": "17-3029.09",
+      "OnetTitle": "Manufacturing Production Technicians"
+    },
+    {
+      "OnetCode": "17-3031.02",
+      "OnetTitle": "Mapping Technicians"
+    },
+    {
+      "OnetCode": "17-2121.02",
+      "OnetTitle": "Marine Architects"
+    },
+    {
+      "OnetCode": "17-2121.01",
+      "OnetTitle": "Marine Engineers"
+    },
+    {
+      "OnetCode": "17-2131.00",
+      "OnetTitle": "Materials Engineers"
+    },
+    {
+      "OnetCode": "17-3013.00",
+      "OnetTitle": "Mechanical Drafters"
+    },
+    {
+      "OnetCode": "17-3027.00",
+      "OnetTitle": "Mechanical Engineering Technicians"
+    },
+    {
+      "OnetCode": "17-3029.07",
+      "OnetTitle": "Mechanical Engineering Technologists"
+    },
+    {
+      "OnetCode": "17-2141.00",
+      "OnetTitle": "Mechanical Engineers"
+    },
+    {
+      "OnetCode": "17-2199.05",
+      "OnetTitle": "Mechatronics Engineers"
+    },
+    {
+      "OnetCode": "51-9082.00",
+      "OnetTitle": "Medical Appliance Technicians"
+    },
+    {
+      "OnetCode": "11-9111.00",
+      "OnetTitle": "Medical and Health Services Managers"
+    },
+    {
+      "OnetCode": "27-1026.00",
+      "OnetTitle": "Merchandise Displayers and Window Trimmers"
+    },
+    {
+      "OnetCode": "17-2199.06",
+      "OnetTitle": "Microsystems Engineers"
+    },
+    {
+      "OnetCode": "51-4035.00",
+      "OnetTitle": "Milling and Planing Machine Setters, Operators, and Tenders, Metal and Plastic"
+    },
+    {
+      "OnetCode": "49-9044.00",
+      "OnetTitle": "Millwrights"
+    },
+    {
+      "OnetCode": "17-2151.00",
+      "OnetTitle": "Mining and Geological Engineers, Including Mining Safety Engineers"
+    },
+    {
+      "OnetCode": "51-4061.00",
+      "OnetTitle": "Model Makers, Metal and Plastic"
+    },
+    {
+      "OnetCode": "51-7031.00",
+      "OnetTitle": "Model Makers, Wood"
+    },
+    {
+      "OnetCode": "51-9195.07",
+      "OnetTitle": "Molding and Casting Workers"
+    },
+    {
+      "OnetCode": "19-1029.02",
+      "OnetTitle": "Molecular and Cellular Biologists"
+    },
+    {
+      "OnetCode": "27-1014.00",
+      "OnetTitle": "Multimedia Artists and Animators"
+    },
+    {
+      "OnetCode": "17-2199.09",
+      "OnetTitle": "Nanosystems Engineers"
+    },
+    {
+      "OnetCode": "17-3029.12",
+      "OnetTitle": "Nanotechnology Engineering Technicians"
+    },
+    {
+      "OnetCode": "17-3029.11",
+      "OnetTitle": "Nanotechnology Engineering Technologists"
+    },
+    {
+      "OnetCode": "15-1142.00",
+      "OnetTitle": "Network and Computer Systems Administrators"
+    },
+    {
+      "OnetCode": "17-3029.01",
+      "OnetTitle": "Non-Destructive Testing Specialists"
+    },
+    {
+      "OnetCode": "17-2161.00",
+      "OnetTitle": "Nuclear Engineers"
+    },
+    {
+      "OnetCode": "15-2031.00",
+      "OnetTitle": "Operations Research Analysts"
+    },
+    {
+      "OnetCode": "51-9083.00",
+      "OnetTitle": "Ophthalmic Laboratory Technicians"
+    },
+    {
+      "OnetCode": "29-2091.00",
+      "OnetTitle": "Orthotists and Prosthetists"
+    },
+    {
+      "OnetCode": "53-7064.00",
+      "OnetTitle": "Packers and Packagers, Hand"
+    },
+    {
+      "OnetCode": "51-4062.00",
+      "OnetTitle": "Patternmakers, Metal and Plastic"
+    },
+    {
+      "OnetCode": "51-7032.00",
+      "OnetTitle": "Patternmakers, Wood"
+    },
+    {
+      "OnetCode": "47-2071.00",
+      "OnetTitle": "Paving, Surfacing, and Tamping Equipment Operators"
+    },
+    {
+      "OnetCode": "17-2171.00",
+      "OnetTitle": "Petroleum Engineers"
+    },
+    {
+      "OnetCode": "17-2199.07",
+      "OnetTitle": "Photonics Engineers"
+    },
+    {
+      "OnetCode": "17-3029.08",
+      "OnetTitle": "Photonics Technicians"
+    },
+    {
+      "OnetCode": "19-2012.00",
+      "OnetTitle": "Physicists"
+    },
+    {
+      "OnetCode": "25-1054.00",
+      "OnetTitle": "Physics Teachers, Postsecondary"
+    },
+    {
+      "OnetCode": "47-2152.01",
+      "OnetTitle": "Pipe Fitters and Steamfitters"
+    },
+    {
+      "OnetCode": "51-4193.00",
+      "OnetTitle": "Plating and Coating Machine Setters, Operators, and Tenders, Metal and Plastic"
+    },
+    {
+      "OnetCode": "47-2152.02",
+      "OnetTitle": "Plumbers"
+    },
+    {
+      "OnetCode": "51-9071.07",
+      "OnetTitle": "Precious Metal Workers"
+    },
+    {
+      "OnetCode": "17-2111.03",
+      "OnetTitle": "Product Safety Engineers"
+    },
+    {
+      "OnetCode": "17-2072.01",
+      "OnetTitle": "Radio Frequency Identification Device Specialists"
+    },
+    {
+      "OnetCode": "47-2171.00",
+      "OnetTitle": "Reinforcing Iron and Rebar Workers"
+    },
+    {
+      "OnetCode": "19-4099.03",
+      "OnetTitle": "Remote Sensing Technicians"
+    },
+    {
+      "OnetCode": "41-2031.00",
+      "OnetTitle": "Retail Salespersons"
+    },
+    {
+      "OnetCode": "49-9096.00",
+      "OnetTitle": "Riggers"
+    },
+    {
+      "OnetCode": "17-2199.08",
+      "OnetTitle": "Robotics Engineers"
+    },
+    {
+      "OnetCode": "17-3024.01",
+      "OnetTitle": "Robotics Technicians"
+    },
+    {
+      "OnetCode": "47-2181.00",
+      "OnetTitle": "Roofers"
+    },
+    {
+      "OnetCode": "47-2031.02",
+      "OnetTitle": "Rough Carpenters"
+    },
+    {
+      "OnetCode": "41-9031.00",
+      "OnetTitle": "Sales Engineers"
+    },
+    {
+      "OnetCode": "11-2022.00",
+      "OnetTitle": "Sales Managers"
+    },
+    {
+      "OnetCode": "41-4012.00",
+      "OnetTitle": "Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products"
+    },
+    {
+      "OnetCode": "13-1199.02",
+      "OnetTitle": "Security Management Specialists"
+    },
+    {
+      "OnetCode": "11-9199.07",
+      "OnetTitle": "Security Managers"
+    },
+    {
+      "OnetCode": "49-2098.00",
+      "OnetTitle": "Security and Fire Alarm Systems Installers"
+    },
+    {
+      "OnetCode": "47-4091.00",
+      "OnetTitle": "Segmental Pavers"
+    },
+    {
+      "OnetCode": "27-1027.00",
+      "OnetTitle": "Set and Exhibit Designers"
+    },
+    {
+      "OnetCode": "51-6051.00",
+      "OnetTitle": "Sewers, Hand"
+    },
+    {
+      "OnetCode": "47-2211.00",
+      "OnetTitle": "Sheet Metal Workers"
+    },
+    {
+      "OnetCode": "53-5021.01",
+      "OnetTitle": "Ship and Boat Captains"
+    },
+    {
+      "OnetCode": "15-1132.00",
+      "OnetTitle": "Software Developers, Applications"
+    },
+    {
+      "OnetCode": "15-1133.00",
+      "OnetTitle": "Software Developers, Systems Software"
+    },
+    {
+      "OnetCode": "15-1199.01",
+      "OnetTitle": "Software Quality Assurance Engineers and Testers"
+    },
+    {
+      "OnetCode": "19-1013.00",
+      "OnetTitle": "Soil and Plant Scientists"
+    },
+    {
+      "OnetCode": "19-1031.01",
+      "OnetTitle": "Soil and Water Conservationists"
+    },
+    {
+      "OnetCode": "47-1011.03",
+      "OnetTitle": "Solar Energy Installation Managers"
+    },
+    {
+      "OnetCode": "17-2199.11",
+      "OnetTitle": "Solar Energy Systems Engineers"
+    },
+    {
+      "OnetCode": "47-2231.00",
+      "OnetTitle": "Solar Photovoltaic Installers"
+    },
+    {
+      "OnetCode": "41-4011.07",
+      "OnetTitle": "Solar Sales Representatives and Assessors"
+    },
+    {
+      "OnetCode": "27-4014.00",
+      "OnetTitle": "Sound Engineering Technicians"
+    },
+    {
+      "OnetCode": "47-2022.00",
+      "OnetTitle": "Stonemasons"
+    },
+    {
+      "OnetCode": "47-2221.00",
+      "OnetTitle": "Structural Iron and Steel Workers"
+    },
+    {
+      "OnetCode": "51-2041.00",
+      "OnetTitle": "Structural Metal Fabricators and Fitters"
+    },
+    {
+      "OnetCode": "19-3022.00",
+      "OnetTitle": "Survey Researchers"
+    },
+    {
+      "OnetCode": "17-3031.01",
+      "OnetTitle": "Surveying Technicians"
+    },
+    {
+      "OnetCode": "17-1022.00",
+      "OnetTitle": "Surveyors"
+    },
+    {
+      "OnetCode": "13-1199.05",
+      "OnetTitle": "Sustainability Specialists"
+    },
+    {
+      "OnetCode": "51-6052.00",
+      "OnetTitle": "Tailors, Dressmakers, and Custom Sewers"
+    },
+    {
+      "OnetCode": "51-2092.00",
+      "OnetTitle": "Team Assemblers"
+    },
+    {
+      "OnetCode": "27-2012.05",
+      "OnetTitle": "Technical Directors/Managers"
+    },
+    {
+      "OnetCode": "27-3042.00",
+      "OnetTitle": "Technical Writers"
+    },
+    {
+      "OnetCode": "15-1143.01",
+      "OnetTitle": "Telecommunications Engineering Specialists"
+    },
+    {
+      "OnetCode": "49-9052.00",
+      "OnetTitle": "Telecommunications Line Installers and Repairers"
+    },
+    {
+      "OnetCode": "51-6062.00",
+      "OnetTitle": "Textile Cutting Machine Setters, Operators, and Tenders"
+    },
+    {
+      "OnetCode": "47-2044.00",
+      "OnetTitle": "Tile and Marble Setters"
+    },
+    {
+      "OnetCode": "51-4111.00",
+      "OnetTitle": "Tool and Die Makers"
+    },
+    {
+      "OnetCode": "53-6041.00",
+      "OnetTitle": "Traffic Technicians"
+    },
+    {
+      "OnetCode": "17-2051.01",
+      "OnetTitle": "Transportation Engineers"
+    },
+    {
+      "OnetCode": "11-3071.01",
+      "OnetTitle": "Transportation Managers"
+    },
+    {
+      "OnetCode": "19-3099.01",
+      "OnetTitle": "Transportation Planners"
+    },
+    {
+      "OnetCode": "19-3051.00",
+      "OnetTitle": "Urban and Regional Planners"
+    },
+    {
+      "OnetCode": "17-2199.02",
+      "OnetTitle": "Validation Engineers"
+    },
+    {
+      "OnetCode": "11-9121.02",
+      "OnetTitle": "Water Resource Specialists"
+    },
+    {
+      "OnetCode": "17-2081.01",
+      "OnetTitle": "Water/Wastewater Engineers"
+    },
+    {
+      "OnetCode": "51-4121.06",
+      "OnetTitle": "Welders, Cutters, and Welder Fitters"
+    },
+    {
+      "OnetCode": "17-2199.10",
+      "OnetTitle": "Wind Energy Engineers"
+    },
+    {
+      "OnetCode": "11-9199.09",
+      "OnetTitle": "Wind Energy Operations Managers"
+    },
+    {
+      "OnetCode": "11-9199.10",
+      "OnetTitle": "Wind Energy Project Managers"
+    }
+  ],
+  "OccupationCount": "261"
+}

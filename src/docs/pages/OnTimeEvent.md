@@ -1,10 +1,10 @@
 ---
-title: "Get & Transform"
+title: "On Time Event"
 date: "2018-08-08"
 tags: ["Excel", "Power Query", "VBA"]
 ---
 
-## Problem: Using Parameters
+## Parameters Part 1
 
 I have a workbook that is set up as an Excel Table as follows:
 

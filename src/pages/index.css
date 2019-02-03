@@ -63,6 +63,7 @@ Note: don't surround css relative paths in quotes
 article {
   /* box-shadow: -4px 6px 8px 0px #000000, 0 6px 20px 0 #00000030; */
   text-align: center;
+  border: 1px solid #000;
   display: inherit;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -101,16 +102,21 @@ a {
 
 table, td {
   background-color: #f8f9fa;
-  border: solid #6c757d;
+  border: 1px solid #000;
   padding: 8px;
   margin-block-end: 1rem;
 }
 
 th{
   text-align: center;
-  background-color: #f92672;
+  border: 1px solid #000;
+  background-color: #c92c2c;
   color: #FFF;
   padding: 8px;
+}
+
+ul{
+  list-style: none;
 }
 
 #brand {

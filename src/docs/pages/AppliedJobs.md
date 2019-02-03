@@ -1,6 +1,6 @@
 ---
 title: "Job Application Status"
-date: 2019-01-21
+date: "2019-01-21"
 ---
 
 # Applied for:
@@ -44,13 +44,13 @@ Systems Analyst
 | To: | 2/2018
 
 **Role Description**
-- Collaborated with stakeholders of various levels to develop solutions for the Procurement, Sales, Warehouse and Transportation departments
-- Compiled daily, weekly and quarterly reports to measure performance and forecast demand
-- Created Excel and Power BI dashboards to visualize data concisely and consistently
-  o Automated dashboards using VBA, Power Query and Excel templates
-  o Documented and distributed procedures and SOPs using OneNote
+Collaborated with stakeholders of various levels to develop solutions for the Procurement, Sales, Warehouse and Transportation departments  
+Compiled daily, weekly and quarterly reports to measure performance and forecast demand  
+Created Excel and Power BI dashboards to visualize data concisely and consistently  
+  - Automated dashboards using VBA, Power Query and Excel templates  
+  - Documented and distributed procedures and SOPs using OneNote  
 
-Technologies: Excel, Power BI, OneNote, VBA, Power Query, SQL
+_Technologies: Excel, Power BI, OneNote, VBA, Power Query, SQL_
 
 | Attribute | Value |
 |------|-------|
@@ -60,11 +60,12 @@ Technologies: Excel, Power BI, OneNote, VBA, Power Query, SQL
 | To: | 8/2017 |
 
 **Role Description**
-- Followed OneNote procedures and Excel Templates to produce client-facing reports compliant with regulatory agencies
-- Managed tight deadlines and quality standards for posting mutual fund NAVs
-- Recorded transactions to the general ledger and reconciled variances between multiple sources
-  o Common transactions included interest rate swaps, rolling of treasury securities and repurchase agreements
-Technologies: Excel, Access, OneNote, Bloomberg and 3270 terminals
+Followed OneNote procedures and Excel Templates to produce client-facing reports compliant with regulatory agencies  
+Managed tight deadlines and quality standards for posting mutual fund NAVs  
+Recorded transactions to the general ledger and reconciled variances between multiple sources  
+  - Common transactions included interest rate swaps, rolling of treasury securities and repurchase agreements
+
+_Technologies: Excel, Access, OneNote, Bloomberg and 3270 terminals_
 
 | Attribute | Value |
 |------|-------|
@@ -74,43 +75,47 @@ Technologies: Excel, Access, OneNote, Bloomberg and 3270 terminals
 | To: | 10/2016 |
 
 **Role Description**
-- Received telephone inquiries from shareholders and financial advisors and provided timely solutions to their requests
-- Provided customer service and knowledge of investment products to stakeholders
-- Processed transactions to retirement and non-retirement investment accounts
-  o FINRA Series 6 certification
-Technologies: DST Vision, TA-2000, intranet portals
+Received telephone inquiries from shareholders and financial advisors and provided timely solutions to their requests  
+Provided customer service and knowledge of investment products to stakeholders  
+Processed transactions to retirement and non-retirement investment accounts  
+  - FINRA Series 6 certification
 
+_Technologies: DST Vision, TA-2000, intranet portals_
 
 | Attribute | Value |
 |------|-------|
-Job Title: Surveillance Internship
-Company: KeyBank Real Estate Capital
-From: 6/2015
-To: 8/2015
+| Job Title: | Surveillance Internship |
+| Company: | KeyBank Real Estate Capital |
+| From: | 6/2015 |
+| To: | 8/2015 |
 
 **Role Description**
-- Serviced non-consumer-based loans by analyzing the operating statements of the underlying businesses
-- Reviewed cash flows, occupancies, and rent rolls to assess credit risk
-- Conducted research on disruptive technologies and their potential investment opportunities
+Serviced non-consumer-based loans by analyzing the operating statements of the underlying businesses  
+Reviewed cash flows, occupancies, and rent rolls to assess credit risk  
+Conducted research on disruptive technologies and their potential investment opportunities  
 
-Job Title: Family Business
-Company: Pay-LESS Office Products
-From: 1/2005
-To: 1/2019
+| Attribute | Value |
+|------|-------|
+| Job Title: | Family Business |
+| Company: | Pay-LESS Office Products |
+| From: | 1/2005 |
+| To: | 1/2019 |
 
 **Role Description**
-- Warehouse duties including stocking shelves, pulling orders and loading trucks
-  o Assisted in inventory and cycle counts
-- Delivered products to customers, acting as the first point of contact with clients
-- Customer Service duties including receiving calls from customers and following up with their sales representative
+Warehouse duties including stocking shelves, pulling orders and loading trucks  
+  - Assisted in inventory and cycle counts  
+Delivered products to customers, acting as the first point of contact with clients  
+Customer Service duties including receiving calls from customers and following up with their sales representative  
 
 # Education
 
-School or University: Missouri State University
-From: 2011
-To (Actual or Expected): 2015
-Degree: Bachelors Finance
-Overall Result (GPA): 3.21
+| Attribute | Value |
+|------|-------|
+| School or University: | Missouri State University |
+| From: | 2011 |
+| To (Actual or Expected): | 2015 |
+| Degree: | Bachelors Finance |
+| Overall Result (GPA): | 3.21 |
 
 School or University: Creighton Preparatory School
 From: 2007
