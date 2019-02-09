@@ -21,7 +21,7 @@ This project uses npm scripts for automation
 
 | Script | Description                                              |
 | ------ | -------------------------------------------------------- |
-| start  | Start local webserver to host the docs at localhost:3000 |
+| start  | Start local webserver to host the docs at localhost:8000 |
 | test   | Run tests                                                |
 
 There are many other scripts in package.json, but these are the two you're most likely to run.
